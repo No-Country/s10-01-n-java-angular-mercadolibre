@@ -23,5 +23,5 @@ public class Product {
     private String description;
     @NotNull
     private Double price;
-    private Category category;
+    private Category category; ///categorias en util
 }
