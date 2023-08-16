@@ -20,7 +20,7 @@ import lombok.ToString;
 @Entity
 @Table(name = "shipping_address")
 public class ShippingAddress {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "shipping_ID")
