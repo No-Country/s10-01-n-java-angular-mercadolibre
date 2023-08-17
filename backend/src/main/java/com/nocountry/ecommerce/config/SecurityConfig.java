@@ -58,14 +58,7 @@ public class SecurityConfig {
 
                 .requestMatchers(HttpMethod.GET, "/customer/**").hasRole(Role.USER.name())
 
-                .requestMatchers("/api/authentication/sign-in",
-                        "/api/authentication/sign-up",
-                        "/api/authentication/verify/**",
-                        "/api/user/sign-up",
-                        "/api/authentication/forgot-password",
-                        "/api/authentication/change-password",
-                        "/api/membership/**",
-                        "/api/gym/**"
+                .requestMatchers("/**"
 
 
                 ).permitAll()

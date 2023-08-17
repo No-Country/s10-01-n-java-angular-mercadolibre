@@ -18,13 +18,13 @@ import java.io.UnsupportedEncodingException;
 public class EmailServiceImpl implements EmailService {
     @Autowired
     private CustomerRepository customerRepository;
-    @Value("${verification.base-url}")
+    /*@Value("${verification.base-url}")
     protected String baseUrl;
     @Autowired
     private JavaMailSender javaMailSender;
     @Value("${spring.mail.username}")
     private String emailFrom;
-    /*@Override
+    @Override
     public void sendEmailForgotPassword(EmailValues emailValues) throws MessagingException, UnsupportedEncodingException {
         String email = emailValues.getMailTo();
         String fullName = emailValues.getFullName();
