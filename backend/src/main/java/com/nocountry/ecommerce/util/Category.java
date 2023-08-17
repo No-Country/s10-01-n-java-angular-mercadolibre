@@ -1,0 +1,4 @@
+package com.nocountry.ecommerce.util;
+
+public enum Category {
+}
