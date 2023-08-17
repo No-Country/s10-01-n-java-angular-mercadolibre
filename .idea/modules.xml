@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/backend/ecommerce.iml" filepath="$PROJECT_DIR$/backend/ecommerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/s10-01-n-java-angular-mercadolibre.iml" filepath="$PROJECT_DIR$/.idea/s10-01-n-java-angular-mercadolibre.iml" />
     </modules>
   </component>
