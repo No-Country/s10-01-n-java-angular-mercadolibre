@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/mercadolibreclon/src/assets/fonts/proximanova-light.woff2') format('woff2');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Proxima Nova';
+    src: url('/mercadolibreclon/src/assets/fonts/proximanova-regular.woff2') format('woff2');
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Proxima Nova';
+    src: url('/mercadolibreclon/src/assets/fonts/proximanova-semibold.woff2') format('woff2');
+    font-weight: 500;
+  }
+
+  body {
+    font-family: 'Proxima Nova';
+  }
+  $header: #fff15a;
+  $header-variant: #FFF9BD;
+  $header-variant1: #FFF693;
+  $header-variant2: #FFF693;
+  $header-variant3: #FFF583;
+  $header-variant4: #FFF372;
+  $header-variant5: #fff159;
+  $header-variant6: #E6D950;
+  $header-variant7: #CCC147;
+  $header-variant8: #BFB543;
+  $header-variant9: #BFB543;
+  $promo: #00a650;
+  $card-seemore: #1259c3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
