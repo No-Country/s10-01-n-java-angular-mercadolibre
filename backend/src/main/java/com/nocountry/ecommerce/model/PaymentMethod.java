@@ -25,14 +25,14 @@ public class PaymentMethod {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "payment_ID")
     private int ID;
-    @Column(name = "card_type")
+    @Column(name = "card_type", nullable = false)
     private String cardType;
-    @Column(name = "card_number")
+    @Column(name = "card_number", nullable = false, unique = true)
     private String cardNumber;
-    @Column(name = "expiration_date")
+    @Column(name = "expiration_date", nullable = false)
     private String expirationDate;
-    @Column(name = "security_code")
+    @Column(name = "security_code", nullable = false)
     private String securityCode;
-    @Column(name = "billing_address")
+    @Column(name = "billing_address", nullable = false)
     private String billingAddress;
 }

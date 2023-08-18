@@ -9,11 +9,15 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
+import lombok.Getter;
+import lombok.Setter;
 
 @Data
 @DiscriminatorValue("customer")
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 @ToString
 @Entity
 public class Customers extends Account implements Serializable {
