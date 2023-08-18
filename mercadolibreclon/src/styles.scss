@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+
 @font-face {
     font-family: 'Proxima Nova';
     src: url('/mercadolibreclon/src/assets/fonts/proximanova-light.woff2') format('woff2');
@@ -36,6 +40,8 @@
     --header-variant9: #BFB543;
     --promo: #00a650;
     --card-seemore: #1259c3;
+    --blueMeli: #3483FA;
+    --loginMeli: #FDDC13;
   }
 
 
