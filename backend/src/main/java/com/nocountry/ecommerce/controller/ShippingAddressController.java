@@ -78,6 +78,36 @@ public class ShippingAddressController {
     @RequestMapping( value = "modifyShippingAddress", method = RequestMethod.PUT)
     public ResponseEntity<?> modifyShippingAddress(@RequestBody ShippingAddress shippingAddress){
         
+         if(shippingAddress.getCity() == null ||
+           shippingAddress.getCity().isEmpty() ||
+           shippingAddress.getCity().isBlank())
+           return new ResponseEntity<>("City can't be empty",HttpStatus.BAD_REQUEST);
+        
+        if(!shippingAddress.getCity().matches("^[a-zA-Z]+$"))
+            return new ResponseEntity<>("City must contain only letters", HttpStatus.BAD_REQUEST);
+        
+        if(shippingAddress.getCountry() == null ||
+           shippingAddress.getCountry().isEmpty() ||
+           shippingAddress.getCountry().isBlank())
+           return new ResponseEntity<>("Country can't be empty", HttpStatus.BAD_REQUEST);
+        
+        if(!shippingAddress.getCountry().matches("^[a-zA-Z]+$"))
+            return new ResponseEntity<>("Country must contain only letters", HttpStatus.BAD_REQUEST);
+        
+        if(!shippingAddress.getPhone().matches("\\d+"))
+            return new ResponseEntity<>("Phone number must contain only digits", HttpStatus.BAD_REQUEST);
+        
+        if(shippingAddress.getPhone().length()<7 ||
+           shippingAddress.getPhone().length()>12)
+           return new ResponseEntity<>("Phone number must contain minimum 7 digits", HttpStatus.NOT_ACCEPTABLE);
+        
+        if(!shippingAddress.getPostalCode().matches("^[a-zA-Z0-9]+$"))
+            return new ResponseEntity<>("Postal code must contain only digits or letters", HttpStatus.BAD_REQUEST);
+        
+        if(shippingAddress.getPostalCode().length()<3 ||
+           shippingAddress.getPostalCode().length()>10)
+           return new ResponseEntity<>("Postal code must contain minimum 3 digits", HttpStatus.NOT_ACCEPTABLE);
+        
         ShippingAddress address = this.saimpl.modifyShippingAddress(shippingAddress);
         
         return ResponseEntity.status(HttpStatus.CREATED).body(address);
@@ -88,10 +118,19 @@ public class ShippingAddressController {
     @RequestMapping(value = "consultShippingAddress/{id}", method = RequestMethod.GET)
     public ResponseEntity<?> consultShippingAddress(@PathVariable int id){
         
-        ShippingAddress address = this.saimpl.consultShippingAddress(id);
-        
-        return ResponseEntity.ok(address);
-        
+        ShippingAddress address = null;
+                
+        address = this.saimpl.consultShippingAddress(id);
+        System.out.println("address = " + address);
+        try{
+            if(address != null ) return new ResponseEntity<>(address, HttpStatus.OK);
+            
+            else return new ResponseEntity<>("The given address doesn't exists", HttpStatus.NOT_FOUND);
+            
+        } catch (NoSuchElementException e) {
+            e.printStackTrace(System.out);
+            return new ResponseEntity<>("An error occurred while fetching the address", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
     
     @DeleteMapping
@@ -103,8 +142,7 @@ public class ShippingAddressController {
         try {
             address = this.saimpl.consultShippingAddress(id);
 
-            if (address != null) 
-                this.saimpl.deleteShippingAddress(id);
+            if (address != null) this.saimpl.deleteShippingAddress(id);
 
         } catch (NoSuchElementException e) {
             e.printStackTrace(System.out);
