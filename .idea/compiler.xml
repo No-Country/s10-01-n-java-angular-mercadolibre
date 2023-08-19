@@ -2,18 +2,34 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< HEAD
       <profile default="true" name="Default" enabled="true" />
+=======
+>>>>>>> ab6a3c479eb88b80a65c711354f2f689b1ac8ff3
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="ecommerce" />
       </profile>
     </annotationProcessing>
+=======
+        <module name="mzgym" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecommerce" target="17" />
+    </bytecodeTargetLevel>
+>>>>>>> ab6a3c479eb88b80a65c711354f2f689b1ac8ff3
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ecommerce" options="-parameters" />
+<<<<<<< HEAD
+=======
+      <module name="mzgym" options="-parameters" />
+>>>>>>> ab6a3c479eb88b80a65c711354f2f689b1ac8ff3
     </option>
   </component>
 </project>

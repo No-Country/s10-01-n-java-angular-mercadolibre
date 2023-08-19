@@ -28,11 +28,17 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
+../.idea/compiler.xml 
+../.idea/encodings.xml
+!**/src/main/**/build/ 
+../.idea/jarRepositories.xml
 !**/src/test/**/build/
+../.idea/misc.xml 
+../.idea/modules.xml 
+../.idea/s10-01-n-java-angular-mercadolibre.iml
+../.idea/vcs.xml
 
-### VS Code ###
+### VS Code ### 
 .vscode/
-
 ### Mac OS ###
 .DS_Store
