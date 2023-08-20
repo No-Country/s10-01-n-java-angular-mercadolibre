@@ -121,7 +121,6 @@ public class ShippingAddressController {
         ShippingAddress address = null;
                 
         address = this.saimpl.consultShippingAddress(id);
-        System.out.println("address = " + address);
         try{
             if(address != null ) return new ResponseEntity<>(address, HttpStatus.OK);
             
