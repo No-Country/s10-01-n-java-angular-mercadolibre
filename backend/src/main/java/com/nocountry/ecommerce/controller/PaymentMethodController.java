@@ -175,9 +175,18 @@ public class PaymentMethodController {
     @RequestMapping(value = "consultPaymentMethod/{id}", method = RequestMethod.GET)
     public ResponseEntity<?> consultPaymentMethod(@PathVariable int id) {
 
-        PaymentMethod payment = this.pmimpl.consultPaymentMethod(id);
-
-        return ResponseEntity.ok(payment);
+        PaymentMethod payment = null;
+                
+        payment = this.pmimpl.consultPaymentMethod(id);
+        try{
+            if(payment != null ) return new ResponseEntity<>(payment, HttpStatus.OK);
+            
+            else return new ResponseEntity<>("The given payment method doesn't exists", HttpStatus.NOT_FOUND);
+            
+        } catch (NoSuchElementException e) {
+            e.printStackTrace(System.out);
+            return new ResponseEntity<>("An error occurred while fetching the payment method", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
 
     }
 
