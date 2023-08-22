@@ -2,6 +2,8 @@ package com.nocountry.ecommerce.model;
 
 import com.nocountry.ecommerce.util.Category;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -10,6 +12,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,11 +21,13 @@ import lombok.Setter;
 @Setter
 public class Product {
     @Id
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @NotBlank
     private String name;
+    private List<String> imgProduct;
     private String description;
     @NotNull
     private Double price;
-    private Category category; ///categorias en util
+    private Category category;
 }
