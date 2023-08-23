@@ -15,7 +15,7 @@ import lombok.ToString;
 public class Client {
     @Id
     @Column(name = "client_uuid")
-    private String clientUuid;
+    private long clientUuid;
     private String name;
     @Column(name = "email", nullable = false,unique = true)
     @Email(message = "Please enter a valid email!")

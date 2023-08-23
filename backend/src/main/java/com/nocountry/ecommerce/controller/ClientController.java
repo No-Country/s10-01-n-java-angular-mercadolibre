@@ -3,22 +3,24 @@ package com.nocountry.ecommerce.controller;
 import com.nocountry.ecommerce.model.Client;
 import com.nocountry.ecommerce.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
-@RequestMapping(path= "api/client")
+@RestController
+@RequestMapping("api/client")
 public class ClientController {
-    private final ClientService clientService;
-
     @Autowired
-    public ClientController(ClientService clientService){
-        this.clientService = clientService;
-    }
+    ClientService clientService;
+
 
     @GetMapping
-    public List<Client> getCLients(){
-        return this.clientService.getClients();
+    public ResponseEntity<List<Client>> getCLients(){
+
+        List<Client> listaClientes = clientService.getClients();
+        return new ResponseEntity<>(listaClientes, HttpStatus.OK);
     }
 }
