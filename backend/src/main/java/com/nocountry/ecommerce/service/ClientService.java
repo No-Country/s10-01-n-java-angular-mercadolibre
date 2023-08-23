@@ -33,6 +33,13 @@ public class ClientService {
     public String updateClient(long id, Client client){
         Optional<Client> isExist = this.clientRepository.findById(id);
         Client updateClient = clientRepository.findById(id).get();
+        clientRepository.save(updateClient);
         return "Cliente actualizado satisfactoriamente";
+    }
+
+    public String deleteClient(long id){
+        Client deleteClient = clientRepository.findById(id).get();
+        clientRepository.delete(deleteClient);
+        return "Cliente eliminado";
     }
 }
