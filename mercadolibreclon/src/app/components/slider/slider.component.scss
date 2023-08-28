@@ -1,0 +1,14 @@
+.carousel-container {
+  width: 100%;
+  max-width: 600px;
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+
+    .carousel-slide {
+      flex-shrink: 0;
+      width: 100%;
+    }
+  }
+}
