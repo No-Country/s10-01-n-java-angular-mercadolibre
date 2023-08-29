@@ -12,6 +12,7 @@ import lombok.ToString;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 @Data
@@ -51,6 +52,9 @@ public class Account implements Serializable {
     private String tokenPassword;
     @Transient
     private String token;
+    
+    @OneToMany(mappedBy = "account")
+    private List<PaymentMethod> payments;
     
 
     public Account(String email, String password){
