@@ -3,26 +3,28 @@ package com.nocountry.ecommerce.controller;
 import com.nocountry.ecommerce.model.Client;
 import com.nocountry.ecommerce.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
-
-@RequestMapping(path= "api/client")
+import org.springframework.http.HttpStatus;
+@RestController
+@RequestMapping("api/client")
 public class ClientController {
-    private final ClientService clientService;
-
     @Autowired
-    public ClientController(ClientService clientService){
-        this.clientService = clientService;
-    }
+    ClientService clientService;
+
 
     @GetMapping
-    public List<Client> getCLients(){
-        return this.clientService.getClients();
+    public ResponseEntity<List<Client>> getCLients(){
+
+        List<Client> listaClientes = clientService.getClients();
+        return new ResponseEntity<>(listaClientes, HttpStatus.OK);
     }
 
-    @PostMapping
+    /*@PostMapping
     public ResponseEntity<Object> createClient(@RequestBody Client client){
         return this.clientService.newClient(client);
     }
@@ -35,5 +37,5 @@ public class ClientController {
     @DeleteMapping(value= "/{id}")
     public String deleteClient(@PathVariable long id){
         return this.clientService.deleteClient(id);
-    }
+    } */
 }

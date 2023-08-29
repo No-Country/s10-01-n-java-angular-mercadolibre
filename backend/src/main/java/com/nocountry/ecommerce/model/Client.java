@@ -3,11 +3,9 @@ package com.nocountry.ecommerce.model;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
@@ -17,7 +15,7 @@ import lombok.ToString;
 public class Client {
     @Id
     @Column(name = "client_uuid")
-    private String clientUuid;
+    private long clientUuid;
     private String name;
     @Column(name = "email", nullable = false,unique = true)
     @Email(message = "Please enter a valid email!")
@@ -30,16 +28,6 @@ public class Client {
     @Column(name = "rol", nullable = false)
     private RolTipe rol;
 
-    public Client(){}
-    public Client(String clientUuid, String name, String email, String password, String address, String contactDetalls, RolTipe rol) {
-        this.clientUuid = clientUuid;
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.address = address;
-        this.contactDetalls = contactDetalls;
-        this.rol = rol;
-    }
 }
 
 
