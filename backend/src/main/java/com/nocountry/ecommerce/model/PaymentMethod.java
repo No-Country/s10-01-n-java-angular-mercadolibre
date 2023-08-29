@@ -1,11 +1,15 @@
 package com.nocountry.ecommerce.model;
 
+import jakarta.persistence.Basic;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Size;
 import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,6 +29,7 @@ public class PaymentMethod implements Serializable {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
     @Column(name = "payment_ID")
     private int ID;
     @Column(name = "card_type", nullable = false)
@@ -37,4 +42,7 @@ public class PaymentMethod implements Serializable {
     private String securityCode;
     @Column(name = "billing_address", nullable = false)
     private String billingAddress;
+    @ManyToOne
+    @JoinColumn(name = "id_account", referencedColumnName = "account_uuid")
+    private Account account;
 }
