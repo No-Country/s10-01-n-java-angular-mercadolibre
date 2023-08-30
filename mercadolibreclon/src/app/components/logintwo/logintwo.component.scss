@@ -1,0 +1,10 @@
+.ng-valid:not(form).ng-touched   {
+    border: 1px solid var(--promo);
+    box-shadow: 0 0 0 1px var(--promo);
+
+  }
+ 
+.ng-invalid:not(form).ng-touched  {
+    border: 1px solid var(--error);
+    box-shadow: 0 0 0 1px var(--error);
+  }
