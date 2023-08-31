@@ -19,7 +19,21 @@ test.afterEach( async ({ page }, testInfo) => {
     if (testInfo.status !== testInfo.expectedStatus)
         console.log(`Did not run as expected, ended up at ${page.url()}`);
     });    
-   
+
+    test("should sign in successfully", async ({ page }) => {
+        // Navigate to the website
+        //cy.visit('the-testwebsite.com')
+
+        // Enter the username
+        //cy.get('#username').type('user09876')
+
+        // Enter the password and press the Enter key
+        //cy.get('#password').type('testpassword{enter}')
+
+        // Verify that the URL is now the inventory page URL
+        //cy.url().should('include', '/inventory.html')
+    });
+
     test("Login_001 | ID_01 | Login Exitoso", async ({ page }) => {
     // dado que el usuario abre la pagina de login    
     // cuando usuario y contraseña    
