@@ -1,80 +1,69 @@
 package com.nocountry.ecommerce.model;
 
 import jakarta.persistence.*;
-
+import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name ="`order`")
-public class Order {
+@Table(name ="orders")
+public class Order implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "order_Id")
-    private Integer orderId;
+    @Column(name = "order_id")
+    private Long orderId;
 
-/*    @ManyToOne
-    @JoinColumn(name = "user_Id")
-    private User user;*/
     @ManyToOne
-    @JoinColumn(name = "payment_Method_Id")
-    private PaymentMethod payment_Method_Id;
+    @JoinColumn(name = "account_uuid", referencedColumnName = "account_uuid")
+    private Account clientShopper;
+
+    @ManyToOne
+    @JoinColumn(name = "payment_method_id")
+    private PaymentMethod paymentMethod;
+
     @OneToOne
-    @JoinColumn(name = "shipping_Address_Id")
+    @JoinColumn(name = "shipping_address_id")
     private ShippingAddress shippingAddress;
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ProductCart> productCarts;
-    @Column(name = "status")
+
+    @Column(name = "order_status")
     private String orderStatus;
+
     @Column(name = "total")
     private Double total;
-    @Column(name = "date")
-    private String date;
+
+    @Column(name = "order_date")
+    private LocalDateTime orderDate;
+
     @Column(name = "description")
     private String description;
-    @Column(name = "payment_Method")
-    private String paymentMethod;
 
-    //Constructor
-    public Order() {
+    public Order() {}
 
-    }
-
-    public Order(Integer orderId, User user_Id, PaymentMethod payment_Method_Id, ShippingAddress shippingAddress,
-                 List<ProductCart> productCarts, String orderStatus, Double total, String date, String description, String paymentMethod) {
-        this.orderId = orderId;
-//        this.user = user_Id;
-        this.payment_Method_Id = payment_Method_Id;
-        this.shippingAddress = shippingAddress;
-        this.productCarts = productCarts;
-        this.orderStatus = orderStatus;
-        this.total = total;
-        this.date = date;
-        this.description = description;
-        this.paymentMethod = paymentMethod;
-    }
-
-    public Integer getOrderId() {
+    public Long getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(Integer orderId) {
+    public void setOrderId(Long orderId) {
         this.orderId = orderId;
     }
 
-//    public User getUser_Id() {
-//        return user;
-//    }
-
-//    public void setUser_Id(User user_Id) {
-//        this.user = user_Id;
-//    }
-
-    public PaymentMethod getPayment_Method_Id() {
-        return payment_Method_Id;
+    public Account getClientShopper() {
+        return clientShopper;
     }
 
-    public void setPayment_Method_Id(PaymentMethod payment_Method_Id) {
-        this.payment_Method_Id = payment_Method_Id;
+    public void setClientShopper(Account clientShopper) {
+        this.clientShopper = clientShopper;
+    }
+
+    public PaymentMethod getPaymentMethod() {
+        return paymentMethod;
+    }
+
+    public void setPaymentMethod(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
     }
 
     public ShippingAddress getShippingAddress() {
@@ -109,12 +98,12 @@ public class Order {
         this.total = total;
     }
 
-    public String getDate() {
-        return date;
+    public LocalDateTime getOrderDate() {
+        return orderDate;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setOrderDate(LocalDateTime orderDate) {
+        this.orderDate = orderDate;
     }
 
     public String getDescription() {
@@ -123,29 +112,5 @@ public class Order {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getPaymentMethod() {
-        return paymentMethod;
-    }
-
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
-
-    @Override
-    public String toString() {
-        return "Order{" +
-                "orderId=" + orderId +
-//                ", user_Id=" + user +
-                ", payment_Method_Id=" + payment_Method_Id +
-                ", shippingAddress=" + shippingAddress +
-                ", productCarts=" + productCarts +
-                ", orderStatus='" + orderStatus + '\'' +
-                ", total=" + total +
-                ", date='" + date + '\'' +
-                ", description='" + description + '\'' +
-                ", paymentMethod='" + paymentMethod + '\'' +
-                '}';
     }
 }

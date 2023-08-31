@@ -36,10 +36,10 @@ public class OrderController {
 
     @PutMapping(value = "/editOrder/{order_Id}")
     public ResponseEntity<Order> editOrder(@RequestBody Order order) {
-        Order orderObj = orderServiceImpl.findById(order.getOrderId());
+        Order orderObj = orderServiceImpl.findById(Integer.parseInt(order.getOrderId().toString()));
         if (orderObj != null) {
             orderObj.setTotal(order.getTotal());
-            orderObj.setDate(order.getDate());
+            orderObj.setOrderDate(order.getOrderDate());
             orderObj.setShippingAddress(order.getShippingAddress());
             orderObj.setDescription(order.getDescription());
             orderObj.setPaymentMethod(order.getPaymentMethod());
