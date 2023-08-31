@@ -26,11 +26,11 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotBlank
     private String name;
     private List<String> imgProduct;
     private String description;
     @NotNull
     private Double price;
     private Category category;
+    private int quantity;
 }
