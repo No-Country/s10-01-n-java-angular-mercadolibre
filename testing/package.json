@@ -8,13 +8,14 @@
     "test:only": "npx playwright test",
     "uiMode": "npx playwright test --ui",
     "codegen:ml": "npx playwright codegen https://meliclon.web.app/home",
-    "allure:data":"npx playwright test --reporter=line,allure-playwright",
-    "allure:report":"allure generate ./allure-results --clean && allure open ./allure-report"
+    "allure:data": "npx playwright test --reporter=line,allure-playwright",
+    "allure:report": "allure generate ./allure-results --clean && allure open ./allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.37.0"
+    "@playwright/test": "^1.37.1",
+    "allure-playwright": "^2.6.0"
   }
 }
