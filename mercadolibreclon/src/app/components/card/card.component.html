@@ -1,7 +1,7 @@
-<div class="border border-b-2 w-full cursor-pointer">
-  <div class="flex w-[400px]">
+<div class="w-full cursor-pointer" [routerLink]="['/product', cardData.id]">
+  <div class="flex min-w-full">
     <img class="w-[150px] rounded-md" [src]="cardData.image" alt="">
-    <div class="ml-auto py-4">
+    <div class="ml-auto py-4 flex flex-col gap-2 w-full">
       <p>{{ cardData.title }}</p>
       <p class="font-bold">{{ cardData.price | currency }}</p>
       <p class="text-[#02a64f]">Mismo precio en 6 cuotas de {{ cardData.cuotas | currency }}</p>
