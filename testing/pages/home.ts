@@ -6,7 +6,7 @@ export class HomeComponents {
 
     //Constructor
     constructor(readonly page:Page){
-        this.slider = page.locator('tag=app-slider') 
+        this.slider = page.getByRole('img', { name: 'Imagen 2' })
     }
 
     //Methods

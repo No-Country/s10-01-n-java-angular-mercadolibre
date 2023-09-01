@@ -5,6 +5,7 @@ import { userK, userM } from "../pages/usuarios";
 
 let loginPage: LoginPage;
 const URL = 'https://meliclon.web.app/home'
+const localHost = "http://localhost:4200/inicio"
 
 test.describe("Login en Sistema", () => {
  test.use({ viewport: { width: 390, height: 844 } });
