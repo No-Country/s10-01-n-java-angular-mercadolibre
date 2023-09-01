@@ -1,0 +1,15 @@
+<div class="w-full pt-4 bg-[#fff159] flex flex-col items-center">
+  <div class="flex min-w-full p-2">
+    <fa-icon [icon]="faBars" class="p-2 cursor-pointer" routerLink="home"></fa-icon>
+    <div class="bg-white px-2 rounded-2xl w-full flex">
+      <fa-icon [icon]="faSearch" class="p-2 text-gray-300"></fa-icon>
+      <input type="search" class="w-full outline-none">
+    </div>
+    <p class="text-center text-sm">{{ getLength() }}
+      <fa-icon [icon]="faCartShopping" class="p-2 cursor-pointer" routerLink="/cart"></fa-icon>
+    </p>
+  </div>
+  <div class="w-full flex justify-center pt-2">
+    <p routerLink="home" class="text-sm p-2 min-w-full cursor-pointer"><fa-icon class="pr-4 pl-2" [icon]="faLocationDot"></fa-icon>Enviar a Juan Perez - Alberti 3956</p>
+  </div>
+</div>
