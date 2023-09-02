@@ -17,7 +17,7 @@ test.afterEach( async ({ page }, testInfo) => {
         console.log(`Did not run as expected, ended up at ${page.url()}`);
     });    
    
-    test("Carrito de compras", async ({ page }) => { 
+    test("Agregar y comprar producto", async ({ page }) => { 
         // Dado que un usuario se encuentra en la página de inicio
         // Cuando el usuario navega a la página de un producto
         // Y el usuario agrega el producto al carrito
@@ -29,5 +29,4 @@ test.afterEach( async ({ page }, testInfo) => {
         // Entonces el usuario debería ver una confirmación de compra
    
     });
-
 });

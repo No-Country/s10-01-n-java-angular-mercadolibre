@@ -18,7 +18,7 @@ test.afterEach( async ({ page }, testInfo) => {
     });    
    
 
-    test("Filtro de Busqueda", async ({ page }) => { 
+    test("Búsqueda y Filtros de Productos", async ({ page }) => { 
         // Dado que un usuario se encuentra en la página principal de la tienda
         // Cuando el usuario ingresa "<termino_busqueda>" en la barra de búsqueda
         // Y el usuario presiona "Enter" o hace clic en el botón de búsqueda
