@@ -1,1 +1,77 @@
-<p>auth-login works!</p>
+<div class="h-9 w-full bg-[#fff15a]"></div>
+<form [formGroup]="loginForm" class="flex flex-col h-screen items-center">
+  <p class="text-[var(--error)]">{{loginError}}</p>
+    <h1 class="mt-16 min-h-48 mr-1 w-80">
+        <p class="text-black text-2xl font-semibold tracking-tight">Ingresá tu teléfono, e-mail o usuario</p>
+    </h1>
+    <div class="relative mb-3">
+        <p class="font-normal pb-1 mt-12">E-mail, teléfono o usuario</p>
+        <input formControlName="email" type="email" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
+        <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out motion-reduce:transition-none"></label>
+        <div *ngIf="email.invalid && (email.dirty || email.touched)"
+            class="text-[var(--error)] font-semibold text-xs">
+            <div *ngIf="email.errors?.['required']">
+              <div class="flex mt-2 ml-2 text-xs items-center">
+                <div class="bg-[var(--error)] rounded-[50%] mr-2">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
+                </div>
+                <div>El Email, teléfono o usuario es requerido.</div>
+              </div>
+            </div>
+            <div *ngIf="email.errors?.['email']">
+              <div class="flex mt-2 ml-2 text-xs items-center">
+                <div class="bg-[var(--error)] rounded-[50%] mr-2">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
+                </div>
+                <div>El Email debe tener un formato válido.</div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <h1 class="mt-16 min-h-48 mr-1 w-80">
+        <p class="text-black text-2xl font-semibold tracking-tight">Ahora, tu clave de Mercado Libre</p>
+    </h1>
+    <div class="relative mb-3">
+        <p class="font-normal pb-1 mt-12">Contraseña</p>
+        <input formControlName="password" type="password" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
+        <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6]  transition-all duration-200 ease-out motion-reduce:transition-none "></label>
+        <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[#3483FA] font-bold">Mostrar</span>
+        <div *ngIf="password.invalid && (password.dirty || password.touched)"
+            class="text-[var(--error)] font-semibold text-xs">
+            <div *ngIf="password.errors?.['required']">
+              <div class="flex mt-2 ml-2 text-xs items-center">
+                <div class="bg-[var(--error)] rounded-[50%] mr-2">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
+                </div>
+                <div>
+                  Revisá tu contraseña.
+                </div>
+              </div>
+            </div>
+        </div> 
+      </div>
+    <button (click)="login()" type="submit" class="bg-[#3483FA] inline-block rounded-md text-white w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-12">Continuar</button>
+    <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[#3483FA]">Crear cuenta</button>
+    <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-12 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[#3483FA]">Necesito ayuda para ingresar</button>
+    <div class="w-80 h-16 px-3 py-2.5 bg-white rounded border border-neutral-200 flex-col justify-center items-start gap-3 inline-flex">
+      <div class="text-black text-sm font-bold leading-none">Reportar un problema </div>
+        <div class="self-stretch justify-start items-center gap-9 inline-flex">
+        <div class="grow shrink basis-0 h-4 justify-start items-center gap-2 flex">
+          <div class="w-4 h-4 relative">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="rgba(0, 0, 0, 0.9)"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.79922 0.203857C3.91556 0.203857 3.19922 0.920204 3.19922 1.80386V14.2001C3.19922 15.0837 3.91556 15.8001 4.79922 15.8001H11.185C12.0687 15.8001 12.785 15.0837 12.785 14.2001V1.80386C12.785 0.920202 12.0687 0.203857 11.185 0.203857H4.79922ZM4.39922 1.80386C4.39922 1.58294 4.57831 1.40386 4.79922 1.40386H11.185C11.4059 1.40386 11.585 1.58294 11.585 1.80386V2.6L4.39922 2.59999V1.80386ZM4.39922 3.79999V12.2001L11.585 12.2001V3.8L4.39922 3.79999ZM11.585 13.4001L4.39922 13.4001V14.2001C4.39922 14.421 4.5783 14.6001 4.79922 14.6001H11.185C11.4059 14.6001 11.585 14.421 11.585 14.2001V13.4001Z" fill="rgba(0, 0, 0, 0.9)"></path></svg>
+          </div>
+          <div class="text-black text-base font-normal leading-none">Robo o pérdida de teléfono</div>
+        </div>
+        <div class="w-4 h-4 relative">
+          <svg class="items-end" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="rgba(0, 0, 0, 0.55)"><path d="M8.27686 4.34644L7.42834 5.19496L12.224 9.99059L7.42334 14.7912L8.27187 15.6397L13.921 9.99059L8.27686 4.34644Z" fill="rgba(0, 0, 0, 0.55)"></path></svg>
+          <hr class="p-1 m-1">
+        </div>
+        </div>
+    </div>
+    <div class="mt-16 border justify-center w-full p-4">
+      <div class="grid justify-items-center gap-3 pb-12 ">
+        <p class="text-[#3483FA] font-semibold text-sm">Cómo cuidamos tu privacidad</p>
+        <p class="text-neutral-400 font-normal leading-3 tracking-tight text-xs">Copyright © 1999-2023 Mercadolibre S.R.L</p>
+      </div>
+    </div>
+</form>
