@@ -2,7 +2,7 @@ name: Api Testing
 
 on:
     push:
-        branches: [ main ]
+        branches: [ main , test ]
 
 jobs:
   automated-api-tests:
