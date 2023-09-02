@@ -56,6 +56,9 @@ public class Account implements Serializable {
     @OneToMany(mappedBy = "account")
     private List<PaymentMethod> payments;
     
+    @OneToMany(mappedBy = "account", fetch = FetchType.LAZY)
+    private List<ShippingAddress> addresses;
+    
 
     public Account(String email, String password){
         this.accountUuid = UUID.randomUUID().toString();
