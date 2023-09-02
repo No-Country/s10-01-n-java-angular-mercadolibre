@@ -9,6 +9,7 @@ import { AuthLoginComponent } from './components/auth-login/auth-login.component
 import { HomeComponent } from './pages/home/home.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CardComponent } from './components/card/card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent } from './components/card/card.component';
     AuthLoginComponent,
     HomeComponent,
     SliderComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
