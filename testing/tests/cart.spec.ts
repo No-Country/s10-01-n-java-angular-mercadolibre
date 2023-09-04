@@ -17,7 +17,9 @@ test.afterEach( async ({ page }, testInfo) => {
         console.log(`Did not run as expected, ended up at ${page.url()}`);
     });    
    
-    test("Agregar y comprar producto", async ({ page }) => { 
+    test("Agregar y comprar productos", async ({ page }) => { 
+        
+    //Escenario: Un usuario agrega y compra un productos con éxito    
         await test.step('Dado que un usuario se encuentra en la página de inicio',async function () {
             
         })

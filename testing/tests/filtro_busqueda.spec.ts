@@ -20,13 +20,14 @@ test.afterEach( async ({ page }, testInfo) => {
     });    
 
     test("Búsqueda y Filtros de Productos", async ({ page }) => { 
+        
+    // Escenario: Un usuario agrega y compra un productos con éxito    
         await test.step('Dado que un usuario se encuentra en la página principal de la tienda', async function() {
             
         })
         await test.step('Cuando el usuario ingresa "<termino_busqueda>" en la barra de búsqueda', async function() {
             await homeComponents.search()
-            await homeComponents.typeSearch('sapee')
-            
+            await homeComponents.typeSearch('sapee') 
         })
         await test.step('Y el usuario presiona "Enter" o hace clic en el botón de búsqueda', async function() {
             

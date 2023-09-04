@@ -24,7 +24,6 @@ export class HomeComponents {
     }
 
     async typeSearch(text: string){
-        console.log('Funcion type search')
         await this.searchBox.fill(text)
     }
 
