@@ -14,14 +14,10 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent
   },
-  {
-    path: '**',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {path: 'home', component: DashboardComponent},
-  { path: 'auth-login', component: AuthLoginComponent},
+  //{ path: '**', redirectTo: 'home', pathMatch: 'full' },
+  //{path: 'home', component: DashboardComponent},
   { path: 'auth-login', redirectTo: 'auth-login', pathMatch: 'full'},
+  { path: 'auth-login', component: AuthLoginComponent},
 ];
 
 @NgModule({

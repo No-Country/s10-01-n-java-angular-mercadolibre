@@ -36,7 +36,7 @@ export class AuthLoginComponent {
         },
         complete: ()=>{
           console.info("El login se ha completado");
-          this.router.navigateByUrl("/inicio");
+          this.router.navigateByUrl("home");
           this.loginForm.reset();
         }
       });
