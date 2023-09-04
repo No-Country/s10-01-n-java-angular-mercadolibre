@@ -33,9 +33,10 @@
     </h1>
     <div class="relative mb-3">
         <p class="font-normal pb-1 mt-12">Contraseña</p>
-        <input formControlName="password" type="password" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
+        <input formControlName="password" type="password" [type]="showPassword ? 'text' : 'password'" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
         <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6]  transition-all duration-200 ease-out motion-reduce:transition-none "></label>
-        <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[#3483FA] font-bold">Mostrar</span>
+        <!-- <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[#3483FA] font-bold" >Mostrar</span> -->
+        <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[#3483FA] font-bold" (click)="showPassword = !showPassword">{{ showPassword ? 'Ocultar' : 'Mostrar' }}</span>
         <div *ngIf="password.invalid && (password.dirty || password.touched)"
             class="text-[var(--error)] font-semibold text-xs">
             <div *ngIf="password.errors?.['required']">

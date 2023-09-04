@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { LoginService } from 'src/app/services/auth/login.service';
 import { User } from 'src/app/services/auth/user';
 
@@ -7,16 +7,16 @@ import { User } from 'src/app/services/auth/user';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent implements OnInit{
+export class DashboardComponent implements OnInit, OnDestroy{
   userLoginOn:boolean=false;
   userData?:User;
   constructor(private loginService:LoginService) { }
   /*  cambiar por método onLogout
+  */
   ngOnDestroy(): void {
     this.loginService.currentUserData.unsubscribe();
     this.loginService.currentUserLoginOn.unsubscribe();
   }
-  */
   ngOnInit(): void {
     this.loginService.currentUserLoginOn.subscribe({
       next:(userLoginOn) => {

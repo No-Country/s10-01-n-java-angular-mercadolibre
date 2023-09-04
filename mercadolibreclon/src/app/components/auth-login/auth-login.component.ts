@@ -16,6 +16,7 @@ export class AuthLoginComponent {
       password: ['',[Validators.required]],
     }
   )
+  formGroup: any;
   constructor(private formBuilder: FormBuilder, private router:Router, private loginService: LoginService){}
   get email(){
     return this.loginForm.controls.email;
@@ -46,5 +47,9 @@ export class AuthLoginComponent {
       this.loginForm.markAllAsTouched();
       alert("error en los campos");
     }
+  }
+  showPassword: boolean = false;
+  get getPassword() {
+    return this.formGroup.get('password');
   }
 }
