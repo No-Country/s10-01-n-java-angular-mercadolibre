@@ -3,7 +3,7 @@ import { test, expect, type Page } from "@playwright/test";
 
 const URL = 'https://meliclon.web.app/home'
 
-test.describe("Agregar y comprar producto", () => {
+test.describe("Version 1.0", () => {
  test.use({ viewport: { width: 390, height: 844 } });
     test.beforeEach(async ({ page }) => { 
       await page.goto(URL);
@@ -18,6 +18,33 @@ test.afterEach( async ({ page }, testInfo) => {
     });    
    
     test("Agregar y comprar producto", async ({ page }) => { 
+        await test.step('Dado que un usuario se encuentra en la página de inicio',async function () {
+            
+        })
+        await test.step('Cuando el usuario navega a la página de un producto',async function () {
+            
+        })
+        await test.step('Y el usuario agrega el producto al carrito',async function () {
+            
+        })
+        await test.step('Y el usuario va al carrito de compras',async function () {
+            
+        })
+        await test.step('Entonces el usuario debería ver el producto en el carrito',async function () {
+            
+        })
+        await test.step('Cuando el usuario inicia el proceso de pago Valido',async function () {
+            
+        })
+        await test.step('Cuando el usuario inicia el proceso de pago',async function () {
+            
+        })
+        await test.step('Cuando el usuario inicia el proceso de pago',async function () {
+            
+        })
+        await test.step('Y el usuario completa el proceso de pago',async function () {
+            
+        })
         // Dado que un usuario se encuentra en la página de inicio
         // Cuando el usuario navega a la página de un producto
         // Y el usuario agrega el producto al carrito
