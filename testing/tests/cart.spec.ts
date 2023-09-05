@@ -41,21 +41,8 @@ test.afterEach( async ({ page }, testInfo) => {
         await test.step('Cuando el usuario inicia el proceso de pago',async function () {
             
         })
-        await test.step('Cuando el usuario inicia el proceso de pago',async function () {
-            
-        })
         await test.step('Y el usuario completa el proceso de pago',async function () {
             
         })
-        // Dado que un usuario se encuentra en la página de inicio
-        // Cuando el usuario navega a la página de un producto
-        // Y el usuario agrega el producto al carrito
-        // Y el usuario va al carrito de compras
-        // Entonces el usuario debería ver el producto en el carrito
-        // Cuando el usuario inicia el proceso de pago
-        // Y el usuario selecciona un método de pago válido
-        // Y el usuario completa el proceso de pago
-        // Entonces el usuario debería ver una confirmación de compra
-   
     });
 });

@@ -17,6 +17,6 @@ export class DataUsers {
     } 
 }
 
-export const userK = new DataUsers('userK@mail.com','Abcd1234*','NombreKApellidoK')
-export const userM = new DataUsers('userM@mail.com','Abcd1234*','NombreMApellidoM')
+export const userA = new DataUsers('userA@mail.com','Abcd1234*','NombreKApellidoA')
+export const userB = new DataUsers('userB@mail.com','Abcd1234*','NombreMApellidoA')
  

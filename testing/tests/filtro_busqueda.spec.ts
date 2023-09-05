@@ -41,12 +41,6 @@ test.afterEach( async ({ page }, testInfo) => {
         await test.step('Entonces los resultados deberían actualizarse según los filtros aplicados', async function() {
             
         })
-        // Dado que un usuario se encuentra en la página principal de la tienda
-        // Cuando el usuario ingresa "<termino_busqueda>" en la barra de búsqueda
-        // Y el usuario presiona "Enter" o hace clic en el botón de búsqueda
-        // Entonces el usuario debería ver resultados que coincidan con "<termino_busqueda>"
-        // Cuando el usuario aplica filtros como "<categoria>", "<precio>"
-        // Entonces los resultados deberían actualizarse según los filtros aplicados  
     });
 
 });
