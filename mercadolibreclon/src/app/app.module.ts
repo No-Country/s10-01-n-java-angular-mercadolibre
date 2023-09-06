@@ -14,6 +14,8 @@ import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PaymentComponent } from './components/payment/payment.component';
+import { ArticleComponent } from './components/article/article.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     CardComponent,
     FooterComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    PaymentComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
