@@ -21,7 +21,7 @@ test.afterEach( async ({ page }, testInfo) => {
         console.log(`Did not run as expected, ended up at ${page.url()}`);
     });    
 
-    test("Login de usuario Exitoso", async ({ page }) => {
+    test("successful login", async ({ page }) => {
         await test.step('Navigate to the website',async function() {
             
         })

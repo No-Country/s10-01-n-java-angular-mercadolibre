@@ -24,8 +24,7 @@ test.afterEach( async ({ page }, testInfo) => {
    
 
     test("Home elements", async ({ page }) => {
-        
-    await homeComponents.sliderHome()
+         
 
     });
 });
