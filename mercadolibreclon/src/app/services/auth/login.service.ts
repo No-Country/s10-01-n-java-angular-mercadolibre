@@ -1,8 +1,13 @@
 import { Injectable } from '@angular/core';
 import { LoginRequest } from './loginRequest';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+<<<<<<< HEAD
 import  {  Observable, throwError, catchError, BehaviorSubject , tap} from 'rxjs';
 import { User } from './user';
+=======
+import  { Observable, throwError, catchError, BehaviorSubject , tap} from 'rxjs';
+import { User } from './user'
+>>>>>>> fb8b9857b32235d4e97072cd763b50691cc2551e
 
 @Injectable({
   providedIn: 'root'
@@ -39,7 +44,11 @@ export class LoginService {
     get userLoginOn(): Observable<boolean>{
       return this.currentUserLoginOn.asObservable();
     }
+<<<<<<< HEAD
   }
   
 
 
+=======
+}
+>>>>>>> fb8b9857b32235d4e97072cd763b50691cc2551e
