@@ -21,7 +21,23 @@ test.afterEach( async ({ page }, testInfo) => {
         console.log(`Did not run as expected, ended up at ${page.url()}`);
     });    
 
-    test("Login de usuario incorrecto", async ({ page }) => {
+    test("Login de usuario con datos inválidos", async ({ page }) => {
+        console.log(userA)
+        await test.step('Cuando se muestra el mensaje "Usuario y/o Contraseña Incorrecto"',async function() {
+            
+        })
+        await test.step('Cuando se muestra el mensaje "Email Invalido"',async function() {
+            
+        })
+        await test.step('Cuando se muestra el mensaje "Ingresar Contraseña"',async function() {
+            
+        })
+        await test.step('Cuando se muestra el mensaje "Ingresar Email"',async function() {
+            
+        })    
+        await test.step('Cuando se muestra el mensaje "Ingresar usuario y contraseña"',async function() {
+            
+        })   
     // dado que el usuario abre la pagina de login    
     // cuando usuario y contraseña    
     // y realiza click en iniciar session    

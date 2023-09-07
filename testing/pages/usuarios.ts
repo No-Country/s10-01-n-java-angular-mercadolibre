@@ -8,7 +8,7 @@ export class DataUsers {
     nacimiento: string
     dni: number
     direccion: string
-    telefono: string
+    telefono: number
 
     constructor(email: string, password: string, nombre: string){
         this.email = email
