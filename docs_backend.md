@@ -4,11 +4,6 @@
 
    - NODE_ENV: default as DEVELOPMENT
    - PORT : port where you go to run the server.
-   - DB_URL : connection chaing of the mongo database.
-   - FRONTEND_URL : URL of the frontend client.
-   - SECRET : secret key used for JWT
-   - STRIPE_KEY : secret key Stripe platform
-   - CLOUDINARY_URL = URI of cloudinary server
    - EMAIL_HOST= email host provider
    - EMAIL_PORT= port host provider
    - EMAIL_USER= user host provider
