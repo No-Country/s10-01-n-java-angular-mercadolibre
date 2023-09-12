@@ -8,7 +8,7 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 ```sh
  * Version mobile/responsive de la app mercado libre
  * Opcion de compra de productos
- * opcion d eenvio de productos
+ * opcion de envio de productos
  * opcion de busqueda de productos
 ```
 
