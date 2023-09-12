@@ -25,9 +25,9 @@ test.afterEach( async ({ page }, testInfo) => {
         await test.step('Dado que un usuario se encuentra en la página principal de la tienda', async function() {
             
         })
-        await test.step('Cuando el usuario ingresa "<termino_busqueda>" en la barra de búsqueda', async function() {
+        await test.step('Cuando el usuario ingresa el "<termino_busqueda>" en la barra de búsqueda', async function() {
             await homeComponents.search()
-            await homeComponents.typeSearch('sapee') 
+            await homeComponents.typeSearch('escribir en el buscador') 
         })
         await test.step('Y el usuario presiona "Enter" o hace clic en el botón de búsqueda', async function() {
             
