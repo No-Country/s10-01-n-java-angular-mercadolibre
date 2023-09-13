@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faArrowLeft  } from '@fortawesome/free-solid-svg-icons';
+import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-checkout-standard',
@@ -8,6 +9,13 @@ import { faArrowLeft  } from '@fortawesome/free-solid-svg-icons';
 })
 export class CheckoutStandardComponent {
 
+  constructor(
+    private productService: ProductService
+  ) {}
+
   faArrowLeft = faArrowLeft;
 
+  clearCart() {
+    this.productService.clearCart();
+  }
 }

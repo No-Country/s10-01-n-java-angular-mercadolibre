@@ -28,13 +28,11 @@ export class ProductDetailComponent implements OnInit{
   }
 
   addCart(product: any) {
-    console.log('addCart', product)
     this.productService.addToCart(product);
   }
 
   getCart() {
     this.cart = this.productService.getCart();
-    console.log('cart desde product detail', this.cart)
   }
 
 }

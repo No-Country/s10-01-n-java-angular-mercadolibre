@@ -57,4 +57,8 @@ export class ProductService {
 
     }
   }
+
+  clearCart() {
+    this.cart = [];
+  }
 }

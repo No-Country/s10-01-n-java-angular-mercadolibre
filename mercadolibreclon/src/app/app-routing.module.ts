@@ -64,8 +64,7 @@ const routes: Routes = [
       },
       {
         path: 'payment-status',
-        component: PaymentStatusComponent,
-        canActivate: [EmptyCartGuard]
+        component: PaymentStatusComponent
       }
     ]
   },
