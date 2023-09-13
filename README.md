@@ -25,28 +25,33 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 
 ## *Backend*:
 
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![jwt](https://img.shields.io/badge/Apache-000000?style=for-the-badge&logo=apache&logoColor=white) ![Springboot](http://img.shields.io/badge/-Springboot-629e3a?style=flat-square&logo=springboot&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![jwt](https://img.shields.io/badge/Apache-000000?style=for-the-badge&logo=apache&logoColor=white) ![Springboot](http://img.shields.io/badge/-Springboot-629e3a?style=for-the-badge&logo=springboot&logoColor=white)
 
 ## *Equipo*
 
 ### *Frontend*
-  - Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra" height="12" width="20" /></a> 
-  - Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> 
 
-### *Backend* 
-  - Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a> 
-  - Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a> 
-  - Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a> 
-  - Mauro Spinello Alemani <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a> 
+- Elcira Ibarra 
+- Alejandro Falkenhagen 
 
-### *UXUI* 
-  - Julian Tami <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a> 
+### *Backend*
 
-### *Tester QA* 
-  - Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a> 
+- Wilder Ruiz 
+- Oscar Jurado 
+- Stephany Castro Salas 
+- Mauro Spinello Alemani 
 
-### *Team Leader* 
-  - Viarleth Aurora
+### *UXUI*
+
+- Julian Tami 
+
+### *Tester QA*
+
+- Maximiliano Barbosa 
+
+### *Team Leader*
+
+- Viarleth Aurora
 
 ## *Deploy*
 
