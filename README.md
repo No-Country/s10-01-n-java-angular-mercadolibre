@@ -24,7 +24,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ![React](https://img.shields.io/badge/Angular-E23237?style=for-the-badge&logo=angular&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-## *Backend*:
+## *Back*:
 
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![jwt](https://img.shields.io/badge/Apache-000000?style=for-the-badge&logo=apache&logoColor=white) ![Springboot](http://img.shields.io/badge/-Springboot-629e3a?style=for-the-badge&logo=springboot&logoColor=white)
 
