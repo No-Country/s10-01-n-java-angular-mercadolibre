@@ -18,27 +18,26 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ## *Tecnologias*
 
-## *Frontend*:
+## *Front*:
 
 ![React](https://img.shields.io/badge/Angular-E23237?style=for-the-badge&logo=angular&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-## *Backend*:
+## *Back*:
 
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![jwt](https://img.shields.io/badge/Apache-000000?style=for-the-badge&logo=apache&logoColor=white) ![Springboot](http://img.shields.io/badge/-Springboot-629e3a?style=for-the-badge&logo=springboot&logoColor=white)
 
 ## *Equipo*
 
-### *Frontend*
+### *Front*
 
 - Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a>
 - Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
 
-### *Backend*
+### *Back*
 
 - Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a>
 - Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a>
 - Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a>
-- Mauro Spinello Alemani <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a>
 
 ### *UXUI*
 
@@ -70,4 +69,4 @@ Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 ### 🔗 User History
 
-### 🔗 [Documentacion Backend](doc_backend.md)
+### 🔗 [Documentacion Backend](Documentation.md)
