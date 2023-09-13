@@ -30,7 +30,7 @@ Meli Clon es una Webapp móvil desarrollada para brindar a los usuarios una opci
 ### *Front*
 
 - Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a>
-- Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
+- Alejandro Falkenhagen <a href="https://www.linkedin.com/in/ajfalkenhagen/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
 
 ### *Back*
 
