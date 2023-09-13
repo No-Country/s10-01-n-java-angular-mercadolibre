@@ -1,6 +1,3 @@
-
-<img src="https://github.com/No-Country/s10-01-n-java-angular-mercadolibre/assets/86979361/8fa9b54d-b986-47bb-8074-9a496d8790a8"width = 22px height = 100px/>
-
 ## *Proyecto*
 
 Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcion de compra sin tener que instalar ninguna app, en esta version podras buscar, comprar y enviar productos desde tu celular
@@ -12,7 +9,6 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
  * Opcion de compra de productos
  * opcion de envio de productos
  * opcion de busqueda de productos
-
 ```
 
 ## *Tecnologias*
