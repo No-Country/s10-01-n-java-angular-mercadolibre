@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 ## *Proyecto*
 
 Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcion de compra sin tener que instalar ninguna app, en esta version podras buscar, comprar y enviar productos desde tu celular
@@ -10,6 +11,7 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
  * Opcion de compra de productos
  * opcion d eenvio de productos
  * opcion de busqueda de productos
+
 ```
 
 <hr/>
@@ -31,14 +33,24 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 <hr/>
 
 ## FrontEnd:
+    Elcira Ibarra
+    Alejandro Falkenhagen
 
 ## BackEnd:
+    Wilder Ruiz
+    Oscar Jurado
+    Stephany Castro Salas
+    Mauro Spinello Alemani
+    
 
 ## QA:
+    Maximiliano Barbosa
 
 ## Ux/Ui:
+    Julian Tami
 
 ## TL:
+    Viarleth Aurora
 
  <hr/>
 =======
@@ -46,13 +58,13 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 Clon de Mercadolibre
 ![ClonMercadolibre](meliclon.jpg)  
 
-## Descripcion del proyecto  
+## Descripcion del proyecto
 
-El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, construido en Java y Angular con vista desde la versión para móviles. El plan gral. del proyecto prevé la experiencia de la cadena de compra, desde la visión del usuario.  
+El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, construido en Java y Angular con vista desde la versión para móviles. El plan gral. del proyecto prevé la experiencia de la cadena de compra, desde la visión del usuario.
 
-## Tecnologias  
+## Tecnologias
 
-#Frontend  
+#Frontend
 
     Angular,
     Typescript,
@@ -61,7 +73,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
     Angular CDK,
     Firebase  
 
-#Backend  
+#Backend
 
     Java,
     SpringBoot,
@@ -70,36 +82,36 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ## Equipo
 
-Frontend - Elcira Ibarra  
+Frontend - Elcira Ibarra
 
-Frontend - Alejandro Falkenhagen  
+Frontend - Alejandro Falkenhagen
 
-Backend - Wilder Ruiz  
+Backend - Wilder Ruiz
 
-Backend - Oscar Jurado  
+Backend - Oscar Jurado
 
-Backend - Stephany Castro Salas  
+Backend - Stephany Castro Salas
 
-Backend - Mauro Spinello Alemani  
+Backend - Mauro Spinello Alemani
 
-UXUI - Julian Tami  
+UXUI - Julian Tami
 
-Tester QA -  Maximiliano Barbosa  
+Tester QA -  Maximiliano Barbosa
 
-Team Leader - Viarleth Aurora  
-
+Team Leader - Viarleth Aurora
 
 ## Deploy
 
-Firebase[link](https://meliclon.web.app/)  
+Firebase[link](https://meliclon.web.app/)
 
-Railway[link](https://backend-meli.up.railway.app/)  
+Railway[link](https://backend-meli.up.railway.app/)
 
-## Documentacion  
+## Documentacion
 
-Figma[link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)  
+Figma[link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)
 
-Notion[link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)  
+Notion[link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
 
-Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)  
->>>>>>> 85144a853eadc411710f31044648513b70d8ffcf
+Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
+
+> > > > > > > 85144a853eadc411710f31044648513b70d8ffcf
