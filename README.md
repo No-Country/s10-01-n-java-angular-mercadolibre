@@ -40,7 +40,6 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 - Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a>
 - Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a>
 - Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a>
-- Mauro Spinello Alemani <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a>
 
 ### *UXUI*
 
