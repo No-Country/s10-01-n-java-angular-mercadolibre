@@ -1,4 +1,4 @@
-![meliclon](https://github.com/No-Country/s10-01-n-java-angular-mercadolibre/assets/86979361/8fa9b54d-b986-47bb-8074-9a496d8790a8)
+
 
 ## *Proyecto*
 
