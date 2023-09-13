@@ -2,67 +2,80 @@ package com.nocountry.ecommerce.model;
 
 import jakarta.persistence.*;
 
-import java.util.List;
-
 @Entity
-@Table(name = "productCart")
+@Table(name = "product_cart")
 public class ProductCart {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "productCart_ID")
-    private Integer orderId;
-    /*@ManyToOne
-    @JoinColumn(name = "user_Id")
-    private User user;
-    @ManyToOne
-    @JoinColumn(name = "producto_id")
-    private Product producto;*/
+    @Column(name = "product_cart_id")
+    private Integer productCartId;
 
-    @Column(name= "quantity")
-    private Integer quantity;
+    @ManyToOne
+    @JoinColumn(name = "account_uuid")
+    private Account userBuyer;
+
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product product;
+
+    @Column(name = "quantity")
+    private int quantity;
+
+    @Column(name = "total_price")
+    private double totalPrice;
+
     @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
-    public Integer getOrderId() {
-        return orderId;
+
+    public ProductCart() {}
+
+    public Integer getProductCartId() {
+        return productCartId;
     }
 
-    public void setOrderId(Integer orderId) {
-        this.orderId = orderId;
+    public void setProductCartId(Integer productCartId) {
+        this.productCartId = productCartId;
     }
 
-    /*public User getUser() {
-        return user;
+    public Account getUserBuyer() {
+        return userBuyer;
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }*/
+    public void setUserBuyer(Account userBuyer) {
+        this.userBuyer = userBuyer;
+    }
 
-    /*public Product getProducto() {
-        return producto;
-    }*/
+    public Product getProduct() {
+        return product;
+    }
 
-    /*public void setProducto(Product producto) {
-        this.producto = producto;
-    }*/
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 
-    public Integer getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Integer quantity) {
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
-    @Override
-    public String toString() {
-        return "ProductCart{" +
-                "orderId=" + orderId +
-                /*", user=" + user +
-                ", producto=" + producto +*/
-                ", quantity=" + quantity +
-                '}';
+    public double getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(double totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public Order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
     }
 }
