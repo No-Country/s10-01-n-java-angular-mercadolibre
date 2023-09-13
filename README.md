@@ -49,7 +49,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ### *Tester QA*
 
-- Maximiliano Barbosa
+- Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a>
 
 ### *Team Leader*
 
@@ -73,4 +73,4 @@ Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 ### 🔗 User History
 
-### 🔗 [Documentacion Backend](docs_backend.md)
+### 🔗 [Documentacion Backend](doc_backend.md)
