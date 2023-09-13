@@ -1,0 +1,32 @@
+<div class="w-screen flex flex-col items-center">
+  <div class="bg-[#fff159] w-full flex flex-col items-center">
+    <div class="w-full max-w-[598px]">
+      <div class="pl-5 flex flex-col py-4 w-full min-w-[360px]">
+        <p class="font-bold"><fa-icon [icon]="faArrowLeft" class="pr-2 cursor-pointer" routerLink="/cart/payment-method"></fa-icon>Confirmá tu compra</p>
+      </div>
+    </div>
+  </div>
+
+<div class="flex flex-col items-center bg-[#fff159] w-screen">
+  <div class="flex flex-col gap-4 place-center min-w-[360px] p-4 w-full max-w-[598px]">
+    <div class="flex w-full">
+      <p class="w-full">Producto</p>
+      <p>$19.499</p>
+    </div>
+    <div class="flex">
+      <p class="w-full">Envío</p>
+      <p>Gratis</p>
+    </div>
+    <div class="flex">
+      <p class="w-full">Total</p>
+      <p>$19.499</p>
+    </div>
+  </div>
+  <small>Conocé nuestros <span class="text-[#3483fa]">avisos legales</span></small>
+  <div class="py-4">
+    <button routerLink="/cart/payment-status" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
+    >
+      Continuar
+    </button>
+  </div>
+</div>
