@@ -30,20 +30,20 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 ## *Equipo*
 
 ### *Frontend*
-  - Elcira Ibarra <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra" height="12" width="20" /></a> 
-  - Alejandro Falkenhagen <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> 
+  - Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra" height="12" width="20" /></a> 
+  - Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> 
 
 ### *Backend* 
-  - Wilder Ruiz <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a> 
-  - Oscar Jurado <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a> 
-  - Stephany Castro Salas <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a> 
-  - Mauro Spinello Alemani <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a> 
+  - Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a> 
+  - Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a> 
+  - Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a> 
+  - Mauro Spinello Alemani <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a> 
 
 ### *UXUI* 
-  - Julian Tami <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a> 
+  - Julian Tami <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a> 
 
 ### *Tester QA* 
-  - Maximiliano Barbosa <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a> 
+  - Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a> 
 
 ### *Team Leader* 
   - Viarleth Aurora
