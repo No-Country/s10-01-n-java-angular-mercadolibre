@@ -25,27 +25,28 @@ Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcio
 
 ## *Backend*:
 
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![jwt](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23404d59.svg?style=for-the-badge&logo=JAVA&logoColor=%2361DAFB) ![jwt](https://img.shields.io/badge/Apache-000000?style=for-the-badge&logo=apache&logoColor=white) ![Springboot](http://img.shields.io/badge/-Springboot-629e3a?style=flat-square&logo=springboot&logoColor=white)
 
 ## *Equipo*
 
-Frontend - Elcira Ibarra
+### *Frontend*
+  - Elcira Ibarra <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra" height="12" width="20" /></a> 
+  - Alejandro Falkenhagen <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> 
 
-Frontend - Alejandro Falkenhagen
+### *Backend* 
+  - Wilder Ruiz <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a> 
+  - Oscar Jurado <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a> 
+  - Stephany Castro Salas <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a> 
+  - Mauro Spinello Alemani <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a> 
 
-Backend - Wilder Ruiz
+### *UXUI* 
+  - Julian Tami <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a> 
 
-Backend - Oscar Jurado
+### *Tester QA* 
+  - Maximiliano Barbosa <a href="https://www.linkedin.com/in/anderson-mendoza-ramos-7551141b7/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a> 
 
-Backend - Stephany Castro Salas
-
-Backend - Mauro Spinello Alemani
-
-UXUI - Julian Tami
-
-Tester QA -  [Maximiliano Barbosa](https://www.linkedin.com/in/maxi-barbosa/)
-
-Team Leader - Viarleth Aurora
+### *Team Leader* 
+  - Viarleth Aurora
 
 ## *Deploy*
 
