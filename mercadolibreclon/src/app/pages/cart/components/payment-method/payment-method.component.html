@@ -1,0 +1,19 @@
+<div class="w-screen flex flex-col items-center">
+  <div class="bg-[#fff159] w-full flex flex-col items-center">
+    <div class="w-full max-w-[598px]">
+      <div class="pl-5 flex flex-col py-4 w-full min-w-[360px]">
+        <p class="font-bold"><fa-icon [icon]="faArrowLeft" class="pr-2 cursor-pointer" routerLink="/cart/delivery-method"></fa-icon>¿Cómo querés pagar?</p>
+      </div>
+    </div>
+  </div>
+
+<div class="flex flex-col justify-center items-center mt-2">
+  <button routerLink="/cart/checkout-standard" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
+  >
+    Checkout Standard
+  </button>
+  <button routerLink="/cart/checkout-mercadopago" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
+  >
+    Checkout MercadoPago
+  </button>
+</div>
