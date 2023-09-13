@@ -20,7 +20,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ## *Tecnologias*
 
-## *Frontend*:
+## *Front*:
 
 ![React](https://img.shields.io/badge/Angular-E23237?style=for-the-badge&logo=angular&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-blue.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![Sass](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
@@ -30,7 +30,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ## *Equipo*
 
-### *Frontend*
+### *Front*
 
 - Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a>
 - Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
