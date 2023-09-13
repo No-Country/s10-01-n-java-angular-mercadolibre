@@ -1,0 +1,27 @@
+<div class="w-screen flex flex-col items-center">
+  <div class="bg-[#fff159] w-full flex flex-col items-center">
+    <div class="w-full max-w-[598px]">
+      <div class="pl-5 flex flex-col py-4 w-full min-w-[360px]">
+        <p class="font-bold"><fa-icon [icon]="faArrowLeft" class="pr-2 cursor-pointer" routerLink="/cart/orders"></fa-icon>Selecciona un método de entrega</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center p-2 gap-4 min-h-96">
+    <div class="max-w-[598px]">
+      <div class="flex flex-col justify-center mt-2 w-full gap-4 px-4 py-16 rounded-md bg-[#f5f5f5]">
+        <p class="font-bold">Domicilio y teléfono</p>
+        <p>Alberti 3956 - San Luis y Mitre - CP 7600 - Mar del plata</p>
+        <p>Buenos Aires - Juan Perez - 223-6012271</p>
+        <p class="text-[#3483fa]">Editar o elegir otro</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col justify-center items-center mt-2">
+    <button routerLink="/cart/payment-method" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
+    >
+      Continuar
+    </button>
+  </div>
+</div>
