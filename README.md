@@ -1,4 +1,8 @@
-<img src="./testing/meliclon.jpg" width = 22px height = 100px/>
+<p align="center"> 
+<img src="./testing/meliclon.jpg" width = 400rem/>
+</p>
+
+## *Proyecto*
 
 Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcion de compra sin tener que instalar ninguna app, en esta version podras buscar, comprar y enviar productos desde tu celular
 
