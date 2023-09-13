@@ -1,7 +1,7 @@
 ## s10-01-n-java-angular-mercadolibre
 
 <p align="center"> 
-<img src="./testing/docs/meliclon.jpg" width = 400rem/>
+<img src="./testing/meliclon.jpg" width = 400rem/>
 </p>
 
 ## *Proyecto*
@@ -16,7 +16,6 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
  * Opcion de compra de productos
  * opcion de envio de productos
  * opcion de busqueda de productos
-
 ```
 
 ## *Tecnologias*
