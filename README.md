@@ -33,19 +33,19 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ### *Frontend*
 
-- Elcira Ibarra
-- Alejandro Falkenhagen
+- Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a>
+- Alejandro Falkenhagen <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
 
 ### *Backend*
 
-- Wilder Ruiz
-- Oscar Jurado
-- Stephany Castro Salas
-- Mauro Spinello Alemani
+- Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a>
+- Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a>
+- Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a>
+- Mauro Spinello Alemani <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mauro Spinello Alemani" height="12" width="20" /></a>
 
 ### *UXUI*
 
-- Julian Tami
+- Julian Tami <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a>
 
 ### *Tester QA*
 
