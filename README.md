@@ -1,7 +1,7 @@
 ## s10-01-n-java-angular-mercadolibre
 
 <p align="center"> 
-<img src="./testing/meliclon.jpg" width = 400rem/>
+<img src="./testing/docs/meliclon.jpg" width = 400rem/>
 </p>
 
 ## *Proyecto*
@@ -16,6 +16,7 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
  * Opcion de compra de productos
  * opcion de envio de productos
  * opcion de busqueda de productos
+
 ```
 
 ## *Tecnologias*
@@ -32,23 +33,23 @@ El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, con
 
 ### *Frontend*
 
-- Elcira Ibarra 
-- Alejandro Falkenhagen 
+- Elcira Ibarra
+- Alejandro Falkenhagen
 
 ### *Backend*
 
-- Wilder Ruiz 
-- Oscar Jurado 
-- Stephany Castro Salas 
-- Mauro Spinello Alemani 
+- Wilder Ruiz
+- Oscar Jurado
+- Stephany Castro Salas
+- Mauro Spinello Alemani
 
 ### *UXUI*
 
-- Julian Tami 
+- Julian Tami
 
 ### *Tester QA*
 
-- Maximiliano Barbosa 
+- Maximiliano Barbosa
 
 ### *Team Leader*
 
@@ -72,4 +73,4 @@ Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 ### 🔗 User History
 
-### 🔗 Documentacion Backend
+### 🔗 [Documentacion Backend](docs_backend.md)
