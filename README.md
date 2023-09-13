@@ -1,3 +1,5 @@
+## s10-01-n-java-angular-mercadolibre
+
 <p align="center"> 
 <img src="./testing/meliclon.jpg" width = 400rem/>
 </p>
@@ -41,7 +43,7 @@ Backend - Mauro Spinello Alemani
 
 UXUI - Julian Tami
 
-Tester QA -  Maximiliano Barbosa
+Tester QA -  [Maximiliano Barbosa](https://www.linkedin.com/in/maxi-barbosa/)
 
 Team Leader - Viarleth Aurora
 
