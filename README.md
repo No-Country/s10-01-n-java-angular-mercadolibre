@@ -7,6 +7,7 @@
 ## *Proyecto*
 
 Meli Clon es una Webapp movil desarrollada para brindar a los usuarios una opcion de compra sin tener que instalar ninguna app, en esta version podras buscar, comprar y enviar productos desde tu celular
+El proyecto es un clon de Mercado Libre con funciones básicas y esenciales, construido en Java y Angular con vista desde la versión para móviles. El plan gral. del proyecto prevé la experiencia de la cadena de compra, desde la visión del usuario.
 
 ## *Características*
 
