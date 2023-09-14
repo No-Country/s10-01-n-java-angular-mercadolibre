@@ -124,7 +124,7 @@
 ### Agregar Producto al Carrito
 
 - **URL**: `/cart/add`
-- **Método**: `POST`
+- **Método**: `PUT`
 - **Descripción**: Agrega un producto al carrito de compras.
 - **Parámetros de Entrada**:
   - `product` (Cuerpo de la solicitud): El producto que se va a agregar al carrito.
