@@ -62,7 +62,7 @@ Figma  [link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=d
 
 Notion  [link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
 
-<img width="24" height="24" src="https://img.icons8.com/color/48/trello.png" alt="trello"/>Trello  [link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
+Trello  [link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 <hr/>
 
