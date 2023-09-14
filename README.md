@@ -29,22 +29,22 @@ Meli Clon es una Webapp móvil desarrollada para brindar a los usuarios una opci
 
 ### *Front*
 
-- Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a>
-- Alejandro Falkenhagen <a href="https://www.linkedin.com/in/ajfalkenhagen/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a>
+- Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Alejandro Falkenhagen <a href="https://www.linkedin.com/in/ajfalkenhagen/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *Back*
 
-- Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a>
-- Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a>
-- Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a>
+- Wilder Ruiz <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Wilder Ruiz" height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Oscar Jurado <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Oscar Jurado" height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Stephany Castro Salas <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Stephany Castro Salas" height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *UXUI*
 
-- Julian Tami <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a>
+- Julian Tami <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Julian Tami" height="12" width="20" /></a> <a href = ''> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *Tester QA*
 
-- Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /></a>
+- Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="14" width="18" /> </a> <a href = 'https://github.com/MaxiBarbo'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *Team Leader*
 
