@@ -123,7 +123,7 @@
 
 ### Agregar Producto al Carrito
 
-- **URL**: `/ShoppingCart/add`
+- **URL**: `/cart/add`
 - **Método**: `POST`
 - **Descripción**: Agrega un producto al carrito de compras.
 - **Parámetros de Entrada**:
@@ -137,7 +137,7 @@
 
 ### Eliminar Producto del Carrito
 
-- **URL**: `/ShoppingCart/remove/{productId}`
+- **URL**: `/cart/remove/{productId}`
 - **Método**: `DELETE`
 - **Descripción**: Elimina un producto del carrito de compras.
 - **Parámetros de Entrada**:
@@ -151,7 +151,7 @@
 
 ### Ver Contenido del Carrito
 
-- **URL**: `/ShoppingCart/viewCart/{userId}`
+- **URL**: `/cart/viewCart/{userId}`
 - **Método**: `GET`
 - **Descripción**: Obtiene la lista de productos en el carrito de compras.
 - **Parámetros de Entrada**:
