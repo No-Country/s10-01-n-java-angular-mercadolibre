@@ -52,17 +52,17 @@ Meli Clon es una Webapp móvil desarrollada para brindar a los usuarios una opci
 
 ## *Deploy*
 
-Firebase[link](https://meliclon.web.app/)
+Firebase  [link](https://meliclon.web.app/)
 
-Railway[link](https://backend-meli.up.railway.app/)
+Railway  [link](https://backend-meli.up.railway.app/)
 
 ## *Documentacion*
 
-Figma[link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)
+Figma  [link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)
 
-Notion[link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
+Notion  [link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
 
-Trello[link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
+![Trello](https://img.icons8.com/color/48/trello.png)Trello  [link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 <hr/>
 
