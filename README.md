@@ -44,7 +44,7 @@ Meli Clon es una Webapp móvil desarrollada para brindar a los usuarios una opci
 
 ### *Tester QA*
 
-- Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="14" width="18" /> </a> <a href = 'https://github.com/MaxiBarbo'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Maximiliano Barbosa <a href="https://www.linkedin.com/in/maxi-barbosa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Maximiliano Barbosa" height="12" width="20" /> </a> <a href = 'https://github.com/MaxiBarbo'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *Team Leader*
 
