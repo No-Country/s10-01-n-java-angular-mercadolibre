@@ -58,11 +58,11 @@ Railway  [link](https://backend-meli.up.railway.app/)
 
 ## *Documentacion*
 
-Figma  [link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)
+Diseño del proyecto en Figma  [link](https://www.figma.com/file/VMH9CkxzSoYqmsYZCPsJ6x/Clon-Meli?type=design&node-id=1-2&mode=design&t=MzT3rkzu34iN68fI-0)
 
-Notion  [link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
+Testing del proyecto en Notion  [link](https://maxi-barbosa-proyects.notion.site/maxi-barbosa-proyects/Clon-Mercado-Libre-8807b6a24f7c4959936a3e448356716b)
 
-Trello  [link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
+Organizacion del proyecto en Trello  [link](https://trello.com/b/L6vQPYeR/clonmercadolibre)
 
 <hr/>
 
