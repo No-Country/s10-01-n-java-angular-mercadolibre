@@ -29,7 +29,7 @@ Meli Clon es una Webapp móvil desarrollada para brindar a los usuarios una opci
 
 ### *Front*
 
-- Elcira Ibarra <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a> <a href = 'https://github.com/elcicode'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+- Elcira Ibarra <a href="https://www.linkedin.com/in/elcicode/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Elcira Ibarra " height="12" width="20" /></a> <a href = 'https://github.com/elcicode'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 - Alejandro Falkenhagen <a href="https://www.linkedin.com/in/ajfalkenhagen/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Alejandro Falkenhagen" height="12" width="20" /></a> <a href = 'https://github.com/Afalkenhagen'> <img width = '18px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 
 ### *Back*
