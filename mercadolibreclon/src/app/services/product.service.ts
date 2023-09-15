@@ -1,9 +1,28 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+
+  private apiUrl = 'https://fakestoreapi.com/products';
+
+  constructor(
+    private http: HttpClient) {}
+
+
+
+  getProductsFake(): Observable<any> {
+    return this.http.get(this.apiUrl);
+  }
+
+  getProductDetails(productId: number): Observable<any> {
+    const url = `${this.apiUrl}/${productId}`;
+    console.log('fake store elci', url)
+    return this.http.get(url);
+  }
 
   cart: any[] = [];
 
@@ -32,6 +51,15 @@ export class ProductService {
       cuotas: 89000 / 6,
       shipping: 'Gratis'
     },
+    {
+      id: '4',
+      image: 'https://images.unsplash.com/photo-1467916971207-e78d69dbe744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      images: ['https://images.unsplash.com/photo-1542395118-9d95347995bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80', 'https://images.unsplash.com/photo-1597075383833-a10d2f819ca9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80', 'https://images.unsplash.com/photo-1526979118433-63c7344f06f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80'],
+      title: 'Tocadiscos del alma',
+      price: 250000,
+      cuotas: 250000 / 6,
+      shipping: 'Gratis'
+    }
   ]
 
   getProducts() {
@@ -61,4 +89,5 @@ export class ProductService {
   clearCart() {
     this.cart = [];
   }
+
 }
