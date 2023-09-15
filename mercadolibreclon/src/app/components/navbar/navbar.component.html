@@ -1,13 +1,15 @@
 <mat-menu #menu="matMenu" class="bg-[#fff159]">
   <div class="p-4">
     <div class="flex">
-      <fa-icon [icon]="faUserCircle" class="p-4 text-lg"></fa-icon>
+      <fa-icon [icon]="faUserCircle" class="p-4 text-[30px]"></fa-icon>
       <div class="w-full">
-        <p class="font-bold">Ingresa a tu cuenta</p>
-        <p><small>Podrás ver detalles de envío y personalizar tu experiencia.</small></p>
+        <!-- <p class="font-bold">Ingresa a tu cuenta</p>
+        <p><small>Podrás ver detalles de envío y personalizar tu experiencia.</small></p> -->
+        <p class="text-sm">Hola Juan</p>
+        <p class="font-bold">Nivel 1 - Mercado Puntos</p>
       </div>
     </div>
-    <button routerLink="/auth-login" class="bg-[#3483fa] text-white p-2 rounded-md w-full text-sm">Ingresar</button>
+    <!-- <button routerLink="/auth-login" class="bg-[#3483fa] text-white p-2 rounded-md w-full text-sm">Ingresar</button> -->
   </div>
   <div class="bg-white">
     <button mat-menu-item routerLink="/home" routerLinkActive="active"><fa-icon [icon]="faHome" class="pr-2"></fa-icon>Inicio</button>
