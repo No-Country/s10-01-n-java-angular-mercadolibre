@@ -1,6 +1,6 @@
 ## s10-01-n-java-angular-mercadolibre
 
-<p align="center"><a href="https://www.youtube.com/watch?v=EK6UVl2-PGQ"><img src="./testing/meliclon.jpg" alt="Texto Alternativo" width="400"></a> <a href="https://www.youtube.com/watch?v=EK6UVl2-PGQ"><img src="./testing/meliclon2.png" alt="Texto Alternativo" width="402"></a></p> 
+<p align="center"><a href="https://www.youtube.com/watch?v=EK6UVl2-PGQ"><img src="./testing/meliclon.jpg" alt="Meli clon" width="400"></a> <a href="https://www.youtube.com/watch?v=EK6UVl2-PGQ"><img src="./testing/meliclon2.png" alt="Meli clon" width="402"></a></p> 
 
 ## *Proyecto*
 
