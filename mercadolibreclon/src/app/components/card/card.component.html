@@ -1,6 +1,9 @@
 <div class="w-full cursor-pointer" [routerLink]="['/product', cardData.id]">
   <div class="flex min-w-full">
-    <img class="w-[150px] rounded-md" [src]="cardData.image" alt="">
+    <!-- <img class="w-[150px] rounded-md" [src]="cardData.image" alt=""> -->
+    <div class="p-2">
+      <img class="w-[150px] rounded-md" [src]="cardData.image" alt="">
+    </div>
     <div class="ml-auto py-4 flex flex-col gap-2 w-full">
       <p>{{ cardData.title }}</p>
       <p class="font-bold">{{ cardData.price | currency }}</p>
