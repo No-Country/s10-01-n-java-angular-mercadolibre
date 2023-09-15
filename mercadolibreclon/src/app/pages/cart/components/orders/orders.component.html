@@ -8,11 +8,13 @@
   </div>
 
   <div class="mt-6 w-full min-w-[360px] flex flex-col items-center" *ngFor="let p of cart">
-    <div class="flex flex-col">
-      <p class="font-bold pb-2">CellTechMarket</p>
-      <small class="pr-2">Teléfonos y Accesorios Innovadores</small>
+
+    <div class="flex flex-col w-[320px]">
+      <p class="font-bold pb-2">{{ p.category }}</p>
       <div class="flex pt-2">
-        <img class="w-[110px] rounded-md" [src]="p.image" alt="">
+        <div class="p-2">
+          <img class="w-[110px] rounded-md" [src]="p.image" alt="">
+        </div>
         <div class="ml-auto py-4 flex flex-col gap-4 w-full">
           <p>{{ p.title }}</p>
           <div class="flex gap-2">
@@ -29,7 +31,7 @@
       </div>
       <div class="flex items-end py-4">
         <p>Envío</p>
-        <p class="text-[#02a64f] w-full text-end">{{ p.shipping }}</p>
+        <p class="text-[#02a64f] w-full text-end">Gratis</p>
       </div>
     </div>
   </div>
