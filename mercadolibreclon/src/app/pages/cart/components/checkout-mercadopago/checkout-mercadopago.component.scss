@@ -1,0 +1,14 @@
+button div {
+  animation: progressBar 7s linear;
+  transform-origin: left center;
+  animation-fill-mode: forwards;
+}
+
+@keyframes progressBar {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

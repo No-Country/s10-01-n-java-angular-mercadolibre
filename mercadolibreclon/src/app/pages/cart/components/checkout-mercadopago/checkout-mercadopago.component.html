@@ -23,10 +23,31 @@
     </div>
   </div>
   <small>Conocé nuestros <span class="text-[#3483fa]">avisos legales</span></small>
-  <div class="py-4">
+  <!-- <div class="py-4">
     <button routerLink="/cart/payment-status" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
     (click)="clearCart()">
-      Continuar
+      Pagar
     </button>
+  </div> -->
+
+
+  <div class="py-4">
+    <button
+    class="relative px-4 py-4 rounded-md text-white bg-[#3483fa] p-4 font-bold w-[100px] my-2 focus:outline-none overflow-hidden"
+    (click)="onClick()"
+  >
+    <span *ngIf="!progressBarVisible">Pagar</span>
+    <span *ngIf="progressBarVisible" class="-z-10">Pagar</span>
+    <div
+      *ngIf="progressBarVisible"
+      class="absolute inset-0 bg-[#26b469]"
+      [style.width]="progressBarVisible ? '100%' : '0%'"
+    ></div>
+
+  </button>
   </div>
+
 </div>
+
+
+
