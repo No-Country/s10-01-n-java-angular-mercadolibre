@@ -19,6 +19,10 @@ export class HomeComponent {
   ) {}
 
   ngOnInit() {
-    this.cards = this.productService.getProducts();
+    // this.cards = this.productService.getProducts();
+
+    this.productService.getProductsFake().subscribe((data) => {
+      this.cards = data;
+    });
   }
 }
