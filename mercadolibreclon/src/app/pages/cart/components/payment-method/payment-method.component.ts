@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faArrowLeft  } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-payment-method',
@@ -9,5 +9,5 @@ import { faArrowLeft  } from '@fortawesome/free-solid-svg-icons';
 export class PaymentMethodComponent {
 
   faArrowLeft = faArrowLeft;
-
+  faArrowRight = faArrowRight;
 }
