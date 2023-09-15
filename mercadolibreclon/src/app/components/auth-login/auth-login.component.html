@@ -1,73 +1,16 @@
-<<<<<<< HEAD
 <div class="h-9 w-full bg-[#fff15a]"> </div>
 <div class="flex flex-col h-screen items-center">
-=======
-<div class="h-9 w-full bg-[var(--header)]"></div>
-<form [formGroup]="loginForm" class="flex flex-col  items-center">
-  <p class="text-[var(--error)]">{{loginError}}</p>
->>>>>>> fb8b9857b32235d4e97072cd763b50691cc2551e
     <h1 class="mt-16 min-h-48 mr-1 w-80">
         <p class="text-black text-2xl font-semibold tracking-tight">Ingresá tu teléfono, e-mail o usuario</p>
     </h1>
     <div class="relative mb-3">
         <p class="font-normal pb-1 mt-12">E-mail, teléfono o usuario</p>
-<<<<<<< HEAD
         <input type="email" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
         <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out motion-reduce:transition-none"></label>
       </div>
     <button type="button" class="bg-[#3483FA] inline-block rounded-md text-white w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-12">Continuar</button>
     <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[#3483FA]">Crear cuenta</button>
     <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-12 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[#3483FA]">Necesito ayuda para ingresar</button>
-=======
-        <input formControlName="email" type="email" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
-        <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] transition-all duration-200 ease-out motion-reduce:transition-none"></label>
-        <div *ngIf="email.invalid && (email.dirty || email.touched)"
-            class="text-[var(--error)] font-semibold text-xs">
-            <div *ngIf="email.errors?.['required']">
-              <div class="flex mt-2 ml-2 text-xs items-center">
-                <div class="bg-[var(--error)] rounded-[50%] mr-2">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
-                </div>
-                <div>El Email, teléfono o usuario es requerido.</div>
-              </div>
-            </div>
-            <div *ngIf="email.errors?.['email']">
-              <div class="flex mt-2 ml-2 text-xs items-center">
-                <div class="bg-[var(--error)] rounded-[50%] mr-2">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
-                </div>
-                <div>El Email debe tener un formato válido.</div>
-              </div>
-            </div>
-        </div>
-      </div>
-      <h1 class="mt-16 min-h-48 mr-1 w-80">
-        <p class="text-black text-2xl font-semibold tracking-tight">Ahora, tu clave de Mercado Libre</p>
-    </h1>
-    <div class="relative mb-3">
-        <p class="font-normal pb-1 mt-12">Contraseña</p>
-        <input formControlName="password" type="password" [type]="showPassword ? 'text' : 'password'" class=" block min-h-[auto] w-80 border rounded-md px-3 py-[0.32rem] leading-[1.6] transition-all duration-200 ease-linear" id="Input1" placeholder=""/>
-        <label for="Input1" class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6]  transition-all duration-200 ease-out motion-reduce:transition-none "></label>
-        <!-- <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[#3483FA] font-bold" >Mostrar</span> -->
-        <span class="absolute right-1 top-[78px] uppercase cursor-pointer pt-1 pb-2 text-[var(--blueMeli)] font-bold" (click)="showPassword = !showPassword">{{ showPassword ? 'Ocultar' : 'Mostrar' }}</span>
-        <div *ngIf="password.invalid && (password.dirty || password.touched)"
-            class="text-[var(--error)] font-semibold text-xs">
-            <div *ngIf="password.errors?.['required']">
-              <div class="flex mt-2 ml-2 text-xs items-center">
-                <div class="bg-[var(--error)] rounded-[50%] mr-2">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="white"><path d="M6.72725 2.90906H5.27271L5.45452 6.90906H6.54543L6.72725 2.90906Z" fill="white"></path><path d="M5.99998 7.63633C6.40164 7.63633 6.72725 7.96194 6.72725 8.3636C6.72725 8.76527 6.40164 9.09088 5.99998 9.09088C5.59832 9.09088 5.27271 8.76527 5.27271 8.3636C5.27271 7.96194 5.59832 7.63633 5.99998 7.63633Z" fill="white"></path></svg>
-                </div>
-                <div>
-                  Revisá tu contraseña.
-                </div>
-              </div>
-            </div>
-        </div> 
-      </div>
-    <button (click)="login()" type="submit" class="bg-[var(--blueMeli)] inline-block rounded-md text-white w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-12">Continuar</button>
-    <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-2 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[var(--blueMeli)]">Crear cuenta</button>
-    <button type="button" class="inline-block rounded-md bg-transparent w-80 px-6 pb-12 pt-2.5 text-xs h-11 leading-normal font-semibold mt-4 text-[var(--blueMeli)]">Necesito ayuda para ingresar</button>
->>>>>>> fb8b9857b32235d4e97072cd763b50691cc2551e
     <div class="w-80 h-16 px-3 py-2.5 bg-white rounded border border-neutral-200 flex-col justify-center items-start gap-3 inline-flex">
       <div class="text-black text-sm font-bold leading-none">Reportar un problema </div>
         <div class="self-stretch justify-start items-center gap-9 inline-flex">
@@ -85,16 +28,8 @@
     </div>
     <div class="mt-16 border justify-center w-full p-4">
       <div class="grid justify-items-center gap-3 pb-12 ">
-<<<<<<< HEAD
         <p class="text-[#3483FA] font-semibold text-sm">Cómo cuidamos tu privacidad</p>
         <p class="text-neutral-400 font-normal leading-3 tracking-tight text-xs">Copyright © 1999-2023 Mercadolibre S.R.L</p>
       </div>
     </div>
 </div>
-=======
-        <p class="text-[var(--blueMeli)] font-semibold text-sm">Cómo cuidamos tu privacidad</p>
-        <p class="text-neutral-400 font-normal leading-3 tracking-tight text-xs">Copyright © 1999-2023 Mercadolibre S.R.L</p>
-      </div>
-    </div>
-</form>
->>>>>>> fb8b9857b32235d4e97072cd763b50691cc2551e

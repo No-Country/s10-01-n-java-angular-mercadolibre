@@ -1,0 +1,45 @@
+<div class="w-screen flex flex-col items-center">
+  <div class="bg-[#fff159] w-full flex flex-col items-center">
+    <div class="w-full max-w-[598px]">
+      <div class="pl-5 flex flex-col py-4 w-full min-w-[360px]">
+        <p class="font-bold"><fa-icon [icon]="faArrowLeft" class="pr-2 cursor-pointer" routerLink="home"></fa-icon>Carrito de compras</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 w-full min-w-[360px] flex flex-col items-center" *ngFor="let p of cart">
+
+    <div class="flex flex-col w-[320px]">
+      <p class="font-bold pb-2">{{ p.category }}</p>
+      <div class="flex pt-2">
+        <div class="p-2">
+          <img class="w-[110px] rounded-md" [src]="p.image" alt="">
+        </div>
+        <div class="ml-auto py-4 flex flex-col gap-4 w-full">
+          <p>{{ p.title }}</p>
+          <div class="flex gap-2">
+            <button class="text-[#3483fa]" (click)="removeProductFromCart(p.id)">Eliminar</button>
+            <button class="text-[#3483fa]">Guardar</button>
+          </div>
+          <div class="flex justify-end gap-8 items-center">
+            <div class="border border-spacing-1 rounded-md">
+              <p class="w-16 p-2 text-center">1 u.</p>
+            </div>
+            <p class="font-bold w-full">{{ p.price | currency }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-end py-4">
+        <p>Envío</p>
+        <p class="text-[#02a64f] w-full text-end">Gratis</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col justify-center items-center mt-2">
+    <button routerLink="/cart/delivery-method" class="rounded-md text-white bg-[#3483fa] p-4 font-bold w-[324px] my-2"
+    >
+      Continuar
+    </button>
+  </div>
+</div>

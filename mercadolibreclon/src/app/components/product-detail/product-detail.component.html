@@ -1,0 +1,186 @@
+<app-navbar></app-navbar>
+
+
+
+
+<!-- <div *ngIf="product" class="w-full flex flex-col items-center">
+
+<div class="flex flex-col w-[598px] place-items-center gap-4">
+
+
+  <div class="flex w-[360px] p-4 text-sm">
+    <p class="w-96">Nuevo | +500 vendidos</p>
+    <p class="w-full text-end text-[#3483fa]">
+      <fa-icon [icon]="faStar"></fa-icon>
+      <fa-icon [icon]="faStar"></fa-icon>
+      <fa-icon [icon]="faStar"></fa-icon>
+      <fa-icon [icon]="faStar"></fa-icon>
+      <fa-icon [icon]="faStar"></fa-icon>
+      (83)
+    </p>
+  </div>
+
+
+  <p class="font-bold text-lg p-4">{{ product.title }}</p>
+
+  <div class="flex flex-col items-center">
+    <p class="flex- flex-col items-center rounded-md">
+      <img width="300px" [src]="product.image" alt="">
+    </p>
+  </div>
+
+  <div class="bg-[#f5f5f5] cursor-pointer flex place-items-center min-w-[300px] p-4 text-sm">
+    <div class="flex flex-col w-40">
+      <p>Color:</p>
+      <p class="font-bold">Azúl</p>
+    </div>
+    <fa-icon class="text-[#3483fa] w-full text-end" [icon]="faArrowRight"></fa-icon>
+  </div>
+
+  <div class="min-w-[300px] p-4 flex-flex-col gap-1">
+    <p class="text-lg text-start font-bold">{{ product.price | currency }}</p>
+    <p class="text-sm text-start">en {{ product.cuotas | currency }} cuotas</p>
+    <p class="text-sm text-start"><span class="text-[#02a64f]">Llega gratis</span> el martes</p>
+    <p class="text-sm text-start font-bold">Stock disponible</p>
+  </div>
+
+  <div class="bg-[#f5f5f5] cursor-pointer flex place-items-center min-w-[300px] p-4 text-sm">
+    <div class="flex flex-col">
+      <p class="flex w-[200px]">Cantidad: <span class="font-bold pl-1 pr-2">1</span><span class="text-gray-400">(2 disponibles)</span></p>
+    </div>
+    <fa-icon class="text-[#3483fa] w-full text-end" [icon]="faArrowRight"></fa-icon>
+  </div>
+
+  <div class="flex flex-col justify-center items-center">
+    <button class="bg-[#3483fa] hover:bg-[#5398ff] text-white rounded-md p-4 font-bold w-[324px] my-2">Comprar ahora</button>
+    <app-cart-button [product]="product" (addToCartClick)="addCart($event)"></app-cart-button>
+  </div>
+
+  <div class="w-[360px] p-4 gap-2">
+    <p class="text-lg py-4">Lo que tenés que saber de este producto</p>
+    <ul class="list-disc pl-4 text-sm">
+      <li>Dispositivo liberado para que elijas la compañía telefónica que prefieras.</li>
+      <li>Pantalla de 6.5"</li>
+      <li>Memoria interna de 64</li>
+    </ul>
+  </div>
+
+
+  <p class="font-bold p-4">Imágenes del producto</p>
+
+  <div *ngFor="let i of product.images">
+    <img width="300px" [src]="i">
+  </div>
+
+
+  <div class="w-[360px] p-4 gap-2 pb-8">
+    <p class="text-lg py-4">Descripción</p>
+    <ul class="list-disc pl-4 text-sm">
+      <li>Mayor rendimiento</li>
+      <li>Su memoria RAM de 4GB permite que su smartphone funcione de manera fuilda y sin demoras al realizar distintas tareas, jugar o navegar.</li>
+    </ul>
+  </div>
+
+
+</div>
+
+
+
+</div> -->
+
+
+
+<!-- Fake Store -->
+
+<div class="w-full flex flex-col items-center">
+  <div class="flex flex-col w-[598px] place-items-center gap-4">
+    <div class="flex w-[360px] p-4 text-sm">
+      <p class="w-96">Nuevo | +500 vendidos</p>
+      <p class="w-full text-end text-[#3483fa]">
+        <fa-icon [icon]="faStar"></fa-icon>
+        <fa-icon [icon]="faStar"></fa-icon>
+        <fa-icon [icon]="faStar"></fa-icon>
+        <fa-icon [icon]="faStar"></fa-icon>
+        <fa-icon [icon]="faStar"></fa-icon>
+        (83)
+      </p>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="productDetails" class="w-full flex flex-col items-center">
+
+  <div class="flex flex-col w-[598px] place-items-center gap-4">
+
+
+
+
+  <p class="font-bold text-lg p-4 w-[360px]">{{ productDetails.title }}</p>
+
+  <div class="flex flex-col items-center">
+    <p class="flex- flex-col items-center rounded-md">
+      <img width="300px" [src]="productDetails.image" alt="">
+    </p>
+  </div>
+
+  <div class="bg-[#f5f5f5] cursor-pointer flex place-items-center min-w-[300px] p-4 text-sm">
+    <div class="flex flex-col w-40">
+      <p>Color:</p>
+      <p class="font-bold">Azúl</p>
+    </div>
+    <fa-icon class="text-[#3483fa] w-full text-end" [icon]="faArrowRight"></fa-icon>
+  </div>
+
+  <div class="min-w-[300px] p-4 flex-flex-col gap-1">
+    <p class="text-lg text-start font-bold">{{ productDetails.price | currency }}</p>
+    <p class="text-sm text-start">en {{ productDetails.cuotas | currency }} cuotas</p>
+    <p class="text-sm text-start"><span class="text-[#02a64f]">Llega gratis</span> el martes</p>
+    <p class="text-sm text-start font-bold">Stock disponible</p>
+  </div>
+
+  <div class="bg-[#f5f5f5] cursor-pointer flex place-items-center min-w-[300px] p-4 text-sm">
+    <div class="flex flex-col">
+      <p class="flex w-[200px]">Cantidad: <span class="font-bold pl-1 pr-2">1</span><span class="text-gray-400">(2 disponibles)</span></p>
+    </div>
+    <fa-icon class="text-[#3483fa] w-full text-end" [icon]="faArrowRight"></fa-icon>
+  </div>
+
+  <div class="flex flex-col justify-center items-center">
+    <button class="bg-[#3483fa] hover:bg-[#5398ff] text-white rounded-md p-4 font-bold w-[324px] my-2">Comprar ahora</button>
+    <app-cart-button [product]="productDetails" (addToCartClick)="addCart($event)"></app-cart-button>
+  </div>
+
+  <div class="w-[360px] p-4 gap-2">
+    <p class="text-lg py-4">Lo que tenés que saber de este producto</p>
+    <ul class="list-disc pl-4 text-sm">
+      <li>Dispositivo liberado para que elijas la compañía telefónica que prefieras.</li>
+      <li>Pantalla de 6.5"</li>
+      <li>Memoria interna de 64</li>
+    </ul>
+  </div>
+
+
+  <p class="font-bold p-4">Imágenes del producto</p>
+
+  <div>
+    <img width="300px" [src]="productDetails.image">
+  </div>
+
+
+  <div class="w-[360px] p-4 gap-2 pb-8">
+    <p class="text-lg py-4">Descripción</p>
+    <p>
+      {{ productDetails.description }}
+    </p>
+    <!-- <ul class="list-disc pl-4 text-sm">
+      <li>Mayor rendimiento</li>
+      <li>Su memoria RAM de 4GB permite que su smartphone funcione de manera fuilda y sin demoras al realizar distintas tareas, jugar o navegar.</li>
+    </ul> -->
+  </div>
+
+
+</div>
+
+
+
+</div>

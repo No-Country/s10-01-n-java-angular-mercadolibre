@@ -1,41 +1,54 @@
-<nav  _ngcontent-xyg-c5="" class="w-full pt-4 bg-[#fff159] flex flex-col items-center">
-  <div _ngcontent-xyg-c5="" class="flex min-w-full p-2">
-    <!-- aqui comienza el añadido para el login -->
-    <button class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" (click)="toggleNavbar()"><img width="50" height="50" src="https://img.icons8.com/ios/50/xbox-menu.png" alt="xbox-menu"/></button>
-    <div [ngClass]="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
-        <ul class="flex flex-col lg:flex-row list-none ml-auto">
-          <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="home">
-            <span class="ml-2">Inicio</span>
-            </a>
-          </li>
-          <li *ngIf="!userLoginOn"class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="auth-login">
-            <span class="ml-2">Iniciar Sesión</span>
-            </a>
-          </li>
-          <li *ngIf="userLoginOn" class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="home">
-            <span class="ml-2">Cerrar Sesión</span>
-            </a>
-          </li>
-        </ul>
+<mat-menu #menu="matMenu" class="bg-[#fff159]">
+  <div class="p-4">
+    <div class="flex">
+      <fa-icon [icon]="faUserCircle" class="p-4 text-[30px]"></fa-icon>
+      <div class="w-full">
+        <!-- <p class="font-bold">Ingresa a tu cuenta</p>
+        <p><small>Podrás ver detalles de envío y personalizar tu experiencia.</small></p> -->
+        <p class="text-sm">Hola Juan</p>
+        <p class="font-bold">Nivel 1 - Mercado Puntos</p>
       </div>
-       <!-- aqui finaliza el añadido para el login -->
-    <fa-icon _ngcontent-xyg-c5="" routerlink="home" class="ng-fa-icon p-2 cursor-pointer" tabindex="0"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></fa-icon>
-    <div _ngcontent-xyg-c5="" class="bg-white px-2 rounded-2xl w-full flex">
-      <fa-icon _ngcontent-xyg-c5="" class="ng-fa-icon p-2 text-gray-300"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg></fa-icon><input _ngcontent-xyg-c5="" type="search" class="w-full outline-none" />
     </div>
-    <p _ngcontent-xyg-c5="" class="text-center text-sm"> 0 <fa-icon _ngcontent-xyg-c5="" routerlink="/cart" class="ng-fa-icon p-2 cursor-pointer" tabindex="0"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-          <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
-></path></svg></fa-icon>
-    </p>
+    <!-- <button routerLink="/auth-login" class="bg-[#3483fa] text-white p-2 rounded-md w-full text-sm">Ingresar</button> -->
   </div>
-  <div _ngcontent-xyg-c5="" class="w-full flex justify-center pt-2">
-    <p _ngcontent-xyg-c5="" routerlink="home" class="text-sm p-2 min-w-full cursor-pointer" tabindex="0">
-      <fa-icon _ngcontent-xyg-c5="" class="ng-fa-icon pr-4 pl-2"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot" class="svg-inline--fa fa-location-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-          <path fill="currentColor" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg></fa-icon>Enviar a Juan Perez - Alberti 3956
-    </p>
+  <div class="bg-white">
+    <button mat-menu-item routerLink="/home" routerLinkActive="active"><fa-icon [icon]="faHome" class="pr-2"></fa-icon>Inicio</button>
+    <button mat-menu-item><fa-icon [icon]="faMagnifyingGlass" class="pr-2"></fa-icon>Buscar</button>
+    <button mat-menu-item><fa-icon [icon]="faShoppingBag" class="pr-2"></fa-icon>Mis compras</button>
+    <button mat-menu-item><fa-icon [icon]="faTag" class="pr-2"></fa-icon>Ofertas</button>
+    <button mat-menu-item><fa-icon [icon]="faClock" class="pr-2"></fa-icon>Historial</button>
+    <button mat-menu-item><fa-icon [icon]="faUserCircle" class="pr-2"></fa-icon>Mi cuenta</button>
+    <button mat-menu-item><fa-icon [icon]="faHeadset" class="pr-2"></fa-icon>Ayuda</button>
+    <button mat-menu-item><fa-icon [icon]="faBasketShopping" class="pr-2"></fa-icon>Supermercado</button>
+    <button mat-menu-item><fa-icon [icon]="faShirt" class="pr-2"></fa-icon>Moda</button>
+    <button mat-menu-item><fa-icon [icon]="faStar" class="pr-2"></fa-icon>Más vendidos</button>
+    <button mat-menu-item><fa-icon [icon]="faStore" class="pr-2"></fa-icon>Tiendas oficiales</button>
+    <button mat-menu-item><fa-icon [icon]="faList" class="pr-2"></fa-icon>Categorías</button>
+    <button mat-menu-item><fa-icon [icon]="faFileLines" class="pr-2"></fa-icon>Resumen</button>
+    <button mat-menu-item><fa-icon [icon]="faTag" class="pr-2"></fa-icon>Vender</button>
+    <button mat-menu-item><fa-icon [icon]="faRectangleAd" class="pr-2"></fa-icon>Publicaciones</button>
+    <button mat-menu-item><fa-icon [icon]="faStore" class="pr-2"></fa-icon>Mercado Shops</button>
+    <button mat-menu-item class="font-bold"><fa-icon [icon]="faSignOutAlt" class="pr-2"></fa-icon>Salir</button>
+    <p class="p-4">Acerca de Mercado Libre</p>
   </div>
-</nav>
+</mat-menu>
+
+<div class="w-full pt-4 bg-[#fff159] flex flex-col items-center">
+  <div class="max-w-[598px] w-full flex flex-col items-center">
+    <div class="flex w-full p-2">
+      <fa-icon [icon]="faBars" class="p-2 cursor-pointer" mat-button [matMenuTriggerFor]="menu"></fa-icon>
+      <div class="bg-white px-2 rounded-2xl w-full flex items-center">
+        <fa-icon [icon]="faSearch" class="p-2 text-gray-300"></fa-icon>
+        <input type="search" class="w-full outline-none">
+      </div>
+      <p class="text-center text-sm">{{ getLength() }}
+        <fa-icon *ngIf="getLength() >= 1" [icon]="faCartShopping" class="p-2 cursor-pointer" routerLink="/cart/orders"></fa-icon>
+        <fa-icon *ngIf="getLength() < 1" [icon]="faCartShopping" class="p-2 cursor-pointer" [routerLink]="['/cart/empty-cart']"></fa-icon>
+      </p>
+
+    </div>
+    <div class="w-full flex justify-center pt-2">
+      <p routerLink="home" class="text-sm p-2 min-w-full cursor-pointer"><fa-icon class="pr-4 pl-2" [icon]="faLocationDot"></fa-icon>Enviar a Juan Perez - Alberti 3956</p>
+    </div>
+  </div>
+</div>

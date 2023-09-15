@@ -1,44 +1,27 @@
 <div class="bg-[#ededed] min-h-screen">
-  <div class="flex flex-col justify-center bg-[#FDDC13] gap-4 py-4">
+  <div class="flex flex-col justify-center bg-[#fff159] gap-4 py-4">
     <div class="flex flex-col gap-4">
-      <div class="w-full flex justify-center">
-        <p class="text-sm p-2 w-[598px] cursor-pointer"><fa-icon class="pr-4" [icon]="faLocationDot"></fa-icon>Enviar a Juan Perez - Alberti 3956</p>
-      </div>
       <app-slider></app-slider>
     </div>
-    <div class="w-full flex justify-center">
+    <div class="w-full flex justify-center px-2">
       <p class="px-4 text-sm bg-white p-2 w-[598px] rounded-md shadow-md"><span class="text-[#02a64f]"><fa-icon [icon]="faShippingFast" class="pr-2"></fa-icon>Envío gratis</span> en millones de productos desde $8.000</p>
     </div>
-    <div class="w-full flex justify-center cursor-pointer">
+    <div class="w-full flex justify-center cursor-pointer px-2">
       <p class="flex text-sm text-white bg-gradient-to-r from-purple-400 via-purple-500 to-purple-900 px-4 p-2 w-[598px] rounded-md shadow-md">Suscríbete al nivel 6 por $499/mes <span class="ml-auto">></span></p>
     </div>
   </div>
-  <div class="py-4 cursor-pointer flex justify-center">
+  <div class="py-4 cursor-pointer flex justify-center px-2">
     <img class="w-[598px] min-w-[345px] rounded-lg shadow-md" src="./../../../assets/images/home/banner-promo.png" alt="">
   </div>
-  <div class="w-full flex justify-center">
+  <div class="w-full flex justify-center px-2">
     <div class="flex flex-col max-w-[598px] bg-white">
-      <p class="font-bold px-4 py-2 border border-b-2">Inspirado en lo que viste</p>
+      <p class="font-bold pl-8 py-2 border border-b-2">Inspirado en lo que viste</p>
       <div class="flex w-full justify-start">
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap w-full">
 
-          <!-- <div class="border border-b-2 w-full cursor-pointer" *ngFor="let card of cards">
-            <div class="flex w-[400px]">
-              <img class="w-[150px] rounded-md" [src]="card.image" alt="">
-              <div class="ml-auto py-4">
-                <p>{{ card.title }}</p>
-                <p class="font-bold">{{ card.price | currency }}</p>
-                <p class="text-[#02a64f]">Mismo precio en 6 cuotas de {{ card.cuotas | currency }}</p>
-                <p class="text-[#02a64f]">{{ card.shipping }}</p>
-              </div>
-            </div>
-          </div> -->
-
-
-          <div *ngFor="let card of cards">
+          <div *ngFor="let card of cards" class="px-2 w-full border border-b-2">
             <app-card [cardData]="card"></app-card>
           </div>
-
 
         </div>
       </div>
