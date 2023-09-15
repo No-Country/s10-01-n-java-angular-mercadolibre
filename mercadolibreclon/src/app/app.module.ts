@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AuthLoginComponent } from './components/auth-login/auth-login.component';
-
 import { HomeComponent } from './pages/home/home.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CardComponent } from './components/card/card.component';
@@ -32,6 +31,8 @@ import { PaymentStatusComponent } from './pages/cart/components/payment-status/p
   declarations: [
     AppComponent,
     AuthLoginComponent,
+    DashboardComponent,
+    FooterComponent,
     HomeComponent,
     SliderComponent,
     CardComponent,

@@ -1,0 +1,58 @@
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { LoginService } from 'src/app/services/auth/login.service';
+
+
+@Component({
+  selector: 'app-nav',
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.scss'],
+  template: `<nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-[#fff15a] mb-3">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+      <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-black" routerLink="/">MercadoLibre Clon!</a>
+      <button class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" (click)="toggleNavbar()"><img width="50" height="50" src="https://img.icons8.com/ios/50/xbox-menu.png" alt="xbox-menu"/></button>
+    </div>
+    <div [ngClass]="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
+      <ul class="flex flex-col lg:flex-row list-none ml-auto">
+        <li class="nav-item">
+          <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="/">
+          <span class="ml-2">Inicio</span>
+          </a>
+        </li>
+        <li *ngIf="!userLoginOn"class="nav-item">
+          <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="/iniciar-sesion">
+          <span class="ml-2">Iniciar Sesión</span>
+          </a>
+        </li>
+        <li *ngIf="userLoginOn" class="nav-item">
+          <a class="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black hover:opacity-75" routerLink="/inicio">
+          <span class="ml-2">Cerrar Sesión</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>`
+})
+export class NavComponent implements OnInit, OnDestroy{
+  userLoginOn:boolean=false;
+  constructor(private loginService:LoginService) { }
+  ngOnDestroy(): void {
+    this.loginService.currentUserLoginOn.unsubscribe();
+  }
+  ngOnInit(): void {
+    this.loginService.currentUserLoginOn.subscribe(
+      {
+        next:(userLoginOn) => {
+          this.userLoginOn=userLoginOn;
+        }
+      }
+    )
+  }
+
+  //esto es exclusivo de la nav de prueba para el login
+  showMenu = false;
+  toggleNavbar(){
+    this.showMenu = !this.showMenu;
+  }
+}

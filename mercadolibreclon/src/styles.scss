@@ -38,6 +38,10 @@ $mercadolibreclon-theme: mat.define-light-theme((
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @import "../node_modules/normalize-scss/sass/normalize";
 @include normalize();
 
@@ -47,18 +51,21 @@ $mercadolibreclon-theme: mat.define-light-theme((
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url('/mercadolibreclon/src/assets/fonts/proximanova-light.woff2') format('woff2');
+    font-family: 'Proxima-Nova';
+    src: local("Proxima Nova Light"), local("Proxima-Nova-light"),
+     url('./assets/fonts/proximanova-light.woff2') format('woff2');
     font-weight: normal;
   }
   @font-face {
-    font-family: 'Proxima Nova';
-    src: url('/mercadolibreclon/src/assets/fonts/proximanova-regular.woff2') format('woff2');
+    font-family: 'Proxima-Nova';
+    src: local("Proxima Nova Regular"), local("Proxima-Nova-Regular"),
+     url('./assets/fonts/proximanova-regular.woff2') format('woff2');
     font-weight: 100;
   }
   @font-face {
-    font-family: 'Proxima Nova';
-    src: url('/mercadolibreclon/src/assets/fonts/proximanova-semibold.woff2') format('woff2');
+    font-family: 'Proxima-Nova';
+    src: local("Proxima Nova SemiBold"), local("Proxima-Nova-SemiBold"),
+     url('./assets/fonts/proximanova-semibold.woff2') format('woff2');
     font-weight: 500;
   }
 */
@@ -82,8 +89,8 @@ $mercadolibreclon-theme: mat.define-light-theme((
     font-weight: 500;
   }
 
-  body {
-    font-family: 'Proxima Nova',Arial,sans-serif;
+  body, h1, p {
+    font-family: 'Proxima-Nova',-apple-system,Roboto,Arial,sans-serif;
   }
 
   :root{
